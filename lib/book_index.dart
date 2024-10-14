@@ -36,7 +36,6 @@ class _BookIndexState extends State<BookIndex> {
     final resJson =
         await rootBundle.loadString('assets/scenario/${widget.id}/index.json');
     var data = jsonDecode(resJson);
-    // debugPrint("$indexData");
     setState(() {
       indexData = data["index"];
     });
@@ -156,7 +155,6 @@ class _IndexItemState extends State<IndexItem> {
                       item['href'] != '#'
                           ? InkWell(
                               onTap: () {
-                                debugPrint(item["title"]);
                                 Navigator.push(context,
                                     MaterialPageRoute(builder: (context) {
                                   return BookPage(

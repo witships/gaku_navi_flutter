@@ -1,6 +1,6 @@
 # gaku_navi_flutter
 
-A new Flutter project.
+Flutterの勉強のために作成した「学習サイト」です.
 
 ## Getting Started
 

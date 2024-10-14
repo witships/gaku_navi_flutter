@@ -76,7 +76,6 @@ class _BookPageState extends State<BookPage> {
     final resJson = await rootBundle.loadString(
         'assets/scenario/${widget.id}/${widget.href}/scenario.json');
     var decoJson = jsonDecode(resJson);
-    // debugPrint("しなりお：$decoJson");
     setState(() {
       scenarioData = decoJson["page"];
     });
@@ -84,7 +83,6 @@ class _BookPageState extends State<BookPage> {
 
   // 画面更新
   void review() {
-    // debugPrint("${widget.id}/${widget.href}");
     setState(() {
       pageLength = scenarioData.length;
       messageLength = scenarioData[pageIndex]['message'].length;
@@ -93,8 +91,6 @@ class _BookPageState extends State<BookPage> {
       message = scenarioData[pageIndex]['message'][messageIndex][selectLang];
       actorName = scenarioData[pageIndex]['message'][messageIndex]["actor"];
     });
-    debugPrint("ページ：$pageIndex/$pageLength、メッセージ:$messageIndex/$messageLength");
-    debugPrint("スライド:$slideSrc");
   }
 
   // Next
@@ -215,8 +211,6 @@ class _BookPageState extends State<BookPage> {
                   setState(() {
                     isMenu = !isMenu;
                   });
-
-                  debugPrint("$isMenu");
                 },
                 icon: const Icon(Icons.menu_book_outlined),
               ),

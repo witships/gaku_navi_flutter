@@ -30,11 +30,10 @@ class _BookState extends State<Book> {
     final resJson =
         await rootBundle.loadString('assets/scenario/bookList.json');
     List<dynamic> data = jsonDecode(resJson);
-    // debugPrint(resJson);
+
     setState(() {
       bookList = data;
     });
-    // debugPrint("$bookList");
   }
 
   // 初期化：onMount
@@ -125,7 +124,6 @@ class _BookCardState extends State<BookCard> {
       child: (widget.open)
           ? InkWell(
               onTap: () {
-                debugPrint(widget.title);
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
                   return BookIndex(
                       id: widget.id,
