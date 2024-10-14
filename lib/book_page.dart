@@ -2,6 +2,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter_tts/flutter_tts.dart';
 
 class BookPage extends StatefulWidget {
   const BookPage({
@@ -57,10 +58,10 @@ class _BookPageState extends State<BookPage> {
   String message = "Hello World!";
   bool isMenu = true;
   bool isText = true;
-  bool isVoice = false;
-  bool isAuto = false;
+  bool isVoice = true;
+  bool isAuto = true;
 
-  // late FlutterTts flutterTts; // テキストtoスピーチ
+  late FlutterTts flutterTts; // テキストtoスピーチ
 
   // 言語切り替え
   void changeLang(value) {
@@ -137,27 +138,25 @@ class _BookPageState extends State<BookPage> {
 
   // voicePlay
   Future<void> voicePlay() async {
-    // var lang = selectLang.toString();
-    // await flutterTts.stop();
+    var lang = selectLang.toString();
+    await flutterTts.stop();
     await Future.delayed(const Duration(milliseconds: 550));
-    // await flutterTts.setLanguage(lang);
-    //   if (selectLang == "ja-JA") {
-    // await flutterTts.setSpeechRate(1.2);
-// } else {
-    // await flutterTts.setSpeechRate(1.0);
-    //  }
-    // await flutterTts.setVolume(1.0);
-    // await flutterTts.setPitch(1.0);
-    // await flutterTts.speak(message);
-    // flutterTts.setCompletionHandler(() {
-    //   if (isAuto) {
-    //     next();
-    //   }
-    // });
+    await flutterTts.setLanguage(lang);
+    // アプリの婆は遅めの方が良い
+    // await flutterTts.setSpeechRate(0.7);
+    // web用
+    if (selectLang == "ja-JA") {
+      await flutterTts.setSpeechRate(1.3);
+    } else {
+      await flutterTts.setSpeechRate(1.0);
+    }
+    await flutterTts.setVolume(1.0);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.speak(message);
   }
 
   Future<void> voiceStop() async {
-    // await flutterTts.stop();
+    await flutterTts.stop();
   }
 
   // 初期化
@@ -166,7 +165,14 @@ class _BookPageState extends State<BookPage> {
     super.initState();
     readJson();
     review();
-    // flutterTts = FlutterTts();
+    flutterTts = FlutterTts();
+
+    // iOSだと動作がおかしい
+    if (isAuto) {
+      flutterTts.setCompletionHandler(() {
+        next();
+      });
+    }
   }
 
   @override
