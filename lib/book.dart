@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:gaku_navi_flutter/book_index.dart';
 
 class Book extends StatefulWidget {
   const Book({super.key});
@@ -125,12 +126,12 @@ class _BookCardState extends State<BookCard> {
           ? InkWell(
         onTap: () {
           debugPrint(widget.title);
-          // Navigator.push(context, MaterialPageRoute(builder: (context) {
-          //   return BookIndex(
-          //       id: widget.id,
-          //       title: widget.title,
-          //       thumbnail: widget.thumbnail);
-          // }));
+          Navigator.push(context, MaterialPageRoute(builder: (context) {
+            return BookIndex(
+                id: widget.id,
+                title: widget.title,
+                thumbnail: widget.thumbnail);
+          }));
         },
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
