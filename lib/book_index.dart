@@ -110,7 +110,7 @@ class _BookIndexState extends State<BookIndex> {
   }
 }
 
-// もくじ
+// コンポーネント：もくじ
 class IndexItem extends StatefulWidget {
   const IndexItem({super.key, required this.id, required this.itemList});
 

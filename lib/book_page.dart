@@ -115,12 +115,13 @@ class _BookPageState extends State<BookPage> {
     });
   }
 
-// もくじ選択
+  // もくじ選択
   void changePage(index) {
     setState(() {
       pageIndex = index;
       messageIndex = 0;
     });
+    voiceStop();
     review();
   }
 
@@ -129,6 +130,7 @@ class _BookPageState extends State<BookPage> {
     setState(() {
       messageIndex = value.toInt();
     });
+    voiceStop();
     review();
   }
 
