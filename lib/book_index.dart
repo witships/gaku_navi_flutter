@@ -7,9 +7,9 @@ import 'package:gaku_navi_flutter/book_page.dart';
 class BookIndex extends StatefulWidget {
   const BookIndex(
       {super.key,
-        required this.id,
-        required this.title,
-        required this.thumbnail});
+      required this.id,
+      required this.title,
+      required this.thumbnail});
 
   final String id;
   final String title;
@@ -34,12 +34,9 @@ class _BookIndexState extends State<BookIndex> {
   // Json
   Future<void> readJson() async {
     final resJson =
-    await rootBundle.loadString('assets/scenario/${widget.id}/index.json');
+        await rootBundle.loadString('assets/scenario/${widget.id}/index.json');
     var data = jsonDecode(resJson);
-
-    debugPrint("$indexData");
-    // var res2 = jsonDecode(resJson);
-    // debugPrint("$res2");
+    // debugPrint("$indexData");
     setState(() {
       indexData = data["index"];
     });
@@ -85,30 +82,29 @@ class _BookIndexState extends State<BookIndex> {
             // PCサイズ以上の場合は4列
             if (width < 600) {
               isPcSize = false;
-              // debugPrint("$width:スマホサイズ：$isPcSize");
             }
 
             return Container(
               padding: const EdgeInsets.all(10),
               child: isPcSize
                   ? Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(
-                      child: Image.asset(
-                          "assets/thumbnail/${widget.thumbnail}")),
-                  const SizedBox(height: 5, width: 5),
-                  IndexItem(id: widget.id, itemList: indexData)
-                ],
-              )
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Expanded(
+                            child: Image.asset(
+                                "assets/thumbnail/${widget.thumbnail}")),
+                        const SizedBox(height: 5, width: 5),
+                        IndexItem(id: widget.id, itemList: indexData)
+                      ],
+                    )
                   : Column(
-                children: [
-                  Image.asset("assets/thumbnail/${widget.thumbnail}"),
-                  const SizedBox(height: 5, width: 5),
-                  IndexItem(id: widget.id, itemList: indexData)
-                ],
-              ),
+                      children: [
+                        Image.asset("assets/thumbnail/${widget.thumbnail}"),
+                        const SizedBox(height: 5, width: 5),
+                        IndexItem(id: widget.id, itemList: indexData)
+                      ],
+                    ),
             );
           })),
     );
@@ -147,7 +143,11 @@ class _IndexItemState extends State<IndexItem> {
               padding: const EdgeInsets.only(bottom: 3),
               child: ListTile(
                 tileColor: Colors.white70,
-                title: Text(widget.itemList[index]["part"]),
+                title: Text(
+                  widget.itemList[index]["part"],
+                  style: const TextStyle(
+                      fontSize: 18, fontWeight: FontWeight.bold),
+                ),
                 subtitle: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -155,36 +155,36 @@ class _IndexItemState extends State<IndexItem> {
                     for (var item in widget.itemList[index]["chapter"])
                       item['href'] != '#'
                           ? InkWell(
-                          onTap: () {
-                            debugPrint(item["title"]);
-                            Navigator.push(context,
-                                MaterialPageRoute(builder: (context) {
+                              onTap: () {
+                                debugPrint(item["title"]);
+                                Navigator.push(context,
+                                    MaterialPageRoute(builder: (context) {
                                   return BookPage(
                                       id: widget.id,
                                       title: item["title"],
                                       href: item["href"]);
                                 }));
-                          },
-                          child: Container(
+                              },
+                              child: Container(
+                                  padding: const EdgeInsets.all(5),
+                                  margin: const EdgeInsets.only(bottom: 2),
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(10)),
+                                  width: double.infinity,
+                                  child: Text(item["title"],
+                                      style: const TextStyle(fontSize: 17))))
+                          : Container(
                               padding: const EdgeInsets.all(5),
                               margin: const EdgeInsets.only(bottom: 2),
-                              decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: BorderRadius.circular(10)),
                               width: double.infinity,
-                              child: Text(item["title"],
-                                  style: const TextStyle(fontSize: 17))))
-                          : Container(
-                          padding: const EdgeInsets.all(5),
-                          margin: const EdgeInsets.only(bottom: 2),
-                          width: double.infinity,
-                          decoration: BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius: BorderRadius.circular(10)),
-                          child: Text(
-                            item["title"],
-                            style: const TextStyle(fontSize: 17),
-                          )),
+                              decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(10)),
+                              child: Text(
+                                item["title"],
+                                style: const TextStyle(fontSize: 17),
+                              )),
                     const SizedBox(
                       height: 1,
                     )

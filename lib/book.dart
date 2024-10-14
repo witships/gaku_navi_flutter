@@ -28,7 +28,7 @@ class _BookState extends State<Book> {
   // Json
   Future<void> readJson() async {
     final resJson =
-    await rootBundle.loadString('assets/scenario/bookList.json');
+        await rootBundle.loadString('assets/scenario/bookList.json');
     List<dynamic> data = jsonDecode(resJson);
     // debugPrint(resJson);
     setState(() {
@@ -48,65 +48,65 @@ class _BookState extends State<Book> {
   @override
   Widget build(BuildContext context) {
     return
-      // 全体
-      Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            colorFilter: ColorFilter.mode(
-              Colors.black45,
-              BlendMode.darken,
-            ),
-            image: AssetImage('assets/common/school.jpg'),
-            fit: BoxFit.cover,
+        // 全体
+        Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          colorFilter: ColorFilter.mode(
+            Colors.black45,
+            BlendMode.darken,
+          ),
+          image: AssetImage('assets/common/school.jpg'),
+          fit: BoxFit.cover,
+        ),
+      ),
+      child: Scaffold(
+        backgroundColor: Colors.transparent,
+        // ヘッダー
+        appBar: AppBar(
+          backgroundColor: Colors.black45,
+          title: const Text(
+            "がくなび",
+            style: TextStyle(
+                fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+          ),
+          centerTitle: true,
+        ),
+        body: Container(
+          padding: const EdgeInsets.all(10),
+          child: GridView.extent(
+            maxCrossAxisExtent: 350,
+            mainAxisSpacing: 10,
+            crossAxisSpacing: 10,
+            childAspectRatio: 1.2,
+            children: [
+              for (var item in bookList)
+                BookCard(
+                  // id: item.id,
+                  id: item["id"],
+                  title: item["title"],
+                  thumbnail: item["thumbnail"],
+                  tags: item["tags"],
+                  release: item["release"],
+                  open: item["open"],
+                )
+            ],
           ),
         ),
-        child: Scaffold(
-          backgroundColor: Colors.transparent,
-          // ヘッダー
-          appBar: AppBar(
-            backgroundColor: Colors.black45,
-            title: const Text(
-              "がくなび",
-              style: TextStyle(
-                  fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
-            ),
-            centerTitle: true,
-          ),
-          body: Container(
-            padding:const EdgeInsets.all(10),
-            child: GridView.extent(
-              maxCrossAxisExtent: 350,
-              mainAxisSpacing: 10,
-              crossAxisSpacing: 10,
-              childAspectRatio: 1.2,
-              children: [
-                for (var item in bookList)
-                  BookCard(
-                    // id: item.id,
-                    id: item["id"],
-                    title: item["title"],
-                    thumbnail: item["thumbnail"],
-                    tags: item["tags"],
-                    release: item["release"],
-                    open: item["open"],
-                  )
-              ],
-            ),
-          ),
-        ),
-      );
+      ),
+    );
   }
 }
 
 class BookCard extends StatefulWidget {
   const BookCard(
-  {super.key,
-  required this.id, // id
-  required this.title, // 本のタイトル
-  required this.thumbnail, // サムネイル
-  required this.tags, // タグ
-  required this.release, // 公開
-  required this.open});
+      {super.key,
+      required this.id, // id
+      required this.title, // 本のタイトル
+      required this.thumbnail, // サムネイル
+      required this.tags, // タグ
+      required this.release, // 公開
+      required this.open});
 
   final String id;
   final String title;
@@ -124,107 +124,106 @@ class _BookCardState extends State<BookCard> {
     return Container(
       child: (widget.open)
           ? InkWell(
-        onTap: () {
-          debugPrint(widget.title);
-          Navigator.push(context, MaterialPageRoute(builder: (context) {
-            return BookIndex(
-                id: widget.id,
-                title: widget.title,
-                thumbnail: widget.thumbnail);
-          }));
-        },
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Image.asset("assets/thumbnail/${widget.thumbnail}"),
-            SingleChildScrollView(
-              child: Container(
-                  padding: const EdgeInsets.all(5),
-                  decoration: const BoxDecoration(
-                    color: Colors.white, // 背景色
-                  ),
-                  child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        // Text(widget.id), // id
-                        Text(
-                          widget.title,
-                          style: const TextStyle(
-                              fontSize: 18, fontWeight: FontWeight.bold),
-                          maxLines: 1,
+              onTap: () {
+                debugPrint(widget.title);
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return BookIndex(
+                      id: widget.id,
+                      title: widget.title,
+                      thumbnail: widget.thumbnail);
+                }));
+              },
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.asset("assets/thumbnail/${widget.thumbnail}"),
+                  SingleChildScrollView(
+                    child: Container(
+                        padding: const EdgeInsets.all(5),
+                        decoration: const BoxDecoration(
+                          color: Colors.white, // 背景色
                         ),
-                        // タイトル
-                        Row(
-                          children: [
-                            for (var tag in widget.tags)
-                              Container(
-                                  decoration: BoxDecoration(
-                                      color: Colors.blueGrey
-                                          .withOpacity(0.5),
-                                      borderRadius:
-                                      BorderRadius.circular(10)),
-                                  padding: const EdgeInsets.symmetric(
-                                      horizontal: 7),
-                                  child: Text(tag)),
-                          ],
-                        ),
-                        // タグ
-                        Align(
-                            alignment: AlignmentDirectional.centerEnd,
-                            child: Text(widget.release)),
-                        // 公開日
-                      ])),
+                        child: Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              // id
+                              Text(
+                                widget.title,
+                                style: const TextStyle(
+                                    fontSize: 18, fontWeight: FontWeight.bold),
+                                maxLines: 1,
+                              ),
+                              // タイトル
+                              Row(
+                                children: [
+                                  for (var tag in widget.tags)
+                                    Container(
+                                        decoration: BoxDecoration(
+                                            color: Colors.blueGrey
+                                                .withOpacity(0.5),
+                                            borderRadius:
+                                                BorderRadius.circular(10)),
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 7),
+                                        child: Text(tag)),
+                                ],
+                              ),
+                              // タグ
+                              Align(
+                                  alignment: AlignmentDirectional.centerEnd,
+                                  child: Text(widget.release)),
+                              // 公開日
+                            ])),
+                  )
+                ],
+              ),
             )
-          ],
-        ),
-      )
           : // 公開
-      Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Image.asset("assets/thumbnail/${widget.thumbnail}"),
-          SingleChildScrollView(
-            child: Container(
-                padding: const EdgeInsets.all(5),
-                decoration: const BoxDecoration(
-                  color: Colors.grey,
-                ),
-                child: Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      // Text(widget.id), // id
-                      Text(
-                        widget.title,
-                        style: const TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold),
-                        maxLines: 1,
+          Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Image.asset("assets/thumbnail/${widget.thumbnail}"),
+                SingleChildScrollView(
+                  child: Container(
+                      padding: const EdgeInsets.all(5),
+                      decoration: const BoxDecoration(
+                        color: Colors.grey,
                       ),
-                      // タイトル
-                      Row(
-                        children: [
-                          for (var tag in widget.tags)
-                            Container(
-                                decoration: BoxDecoration(
-                                    color:
-                                    Colors.blueGrey.withOpacity(0.5),
-                                    borderRadius:
-                                    BorderRadius.circular(10)),
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 7),
-                                child: Text(tag)),
-                        ],
-                      ),
-                      // タグ
-                      Align(
-                          alignment: AlignmentDirectional.centerEnd,
-                          child: Text(widget.release)),
-                      // 公開日
-                    ])),
-          )
-        ],
-      ),
+                      child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            // id タイトル
+                            Text(
+                              widget.title,
+                              style: const TextStyle(
+                                  fontSize: 18, fontWeight: FontWeight.bold),
+                              maxLines: 1,
+                            ),
+                            // タグ
+                            Row(
+                              children: [
+                                for (var tag in widget.tags)
+                                  Container(
+                                      decoration: BoxDecoration(
+                                          color:
+                                              Colors.blueGrey.withOpacity(0.5),
+                                          borderRadius:
+                                              BorderRadius.circular(10)),
+                                      padding: const EdgeInsets.symmetric(
+                                          horizontal: 7),
+                                      child: Text(tag)),
+                              ],
+                            ),
+                            // 公開日
+                            Align(
+                                alignment: AlignmentDirectional.centerEnd,
+                                child: Text(widget.release)),
+                          ])),
+                )
+              ],
+            ),
     );
   }
 }

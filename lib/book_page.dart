@@ -276,7 +276,6 @@ class _BookPageState extends State<BookPage> {
                                             horizontal: 5, vertical: 3),
                                         margin:
                                             const EdgeInsets.only(bottom: 2),
-                                        // child: ElevatedButton(onPressed: (){}, child: Text('${scenarioData[index]["title"][selectLang]}',maxLines: 1,)))
                                         child: InkWell(
                                             onTap: () {
                                               setState(() {
@@ -299,7 +298,6 @@ class _BookPageState extends State<BookPage> {
                                             horizontal: 5, vertical: 3),
                                         margin:
                                             const EdgeInsets.only(bottom: 2),
-                                        // child: ElevatedButton(onPressed: (){}, child: Text('${scenarioData[index]["title"][selectLang]}',maxLines: 1,)))
                                         child: InkWell(
                                             onTap: () {
                                               changePage(index);
@@ -357,7 +355,6 @@ class _BookPageState extends State<BookPage> {
                     isText
                         ? TextButton(
                             style: TextButton.styleFrom(
-                                // backgroundColor: Colors.white,
                                 foregroundColor: Colors.white),
                             onPressed: () {
                               setState(() {
@@ -368,7 +365,6 @@ class _BookPageState extends State<BookPage> {
                           )
                         : TextButton(
                             style: TextButton.styleFrom(
-                                // backgroundColor: Colors.white,
                                 foregroundColor: Colors.white38),
                             onPressed: () {
                               setState(() {
@@ -381,7 +377,6 @@ class _BookPageState extends State<BookPage> {
                     isVoice
                         ? TextButton(
                             style: TextButton.styleFrom(
-                                // backgroundColor: Colors.white,
                                 foregroundColor: Colors.white),
                             onPressed: () {
                               setState(() {
@@ -405,7 +400,6 @@ class _BookPageState extends State<BookPage> {
                     isAuto
                         ? TextButton(
                             style: TextButton.styleFrom(
-                                // backgroundColor: Colors.white,
                                 foregroundColor: Colors.white),
                             onPressed: () {
                               setState(() {
@@ -416,7 +410,6 @@ class _BookPageState extends State<BookPage> {
                           )
                         : TextButton(
                             style: TextButton.styleFrom(
-                                // backgroundColor: Colors.white,
                                 foregroundColor: Colors.white38),
                             onPressed: () {
                               setState(() {
@@ -427,9 +420,8 @@ class _BookPageState extends State<BookPage> {
                           ),
                     // 音声再生
                     TextButton(
-                      style: TextButton.styleFrom(
-                          // backgroundColor: Colors.white,
-                          foregroundColor: Colors.white),
+                      style:
+                          TextButton.styleFrom(foregroundColor: Colors.white),
                       onPressed: () {
                         setState(() {
                           voicePlay();
@@ -439,9 +431,8 @@ class _BookPageState extends State<BookPage> {
                     ),
                     // 音声ストップ
                     TextButton(
-                      style: TextButton.styleFrom(
-                          // backgroundColor: Colors.white,
-                          foregroundColor: Colors.white),
+                      style:
+                          TextButton.styleFrom(foregroundColor: Colors.white),
                       onPressed: () {
                         setState(() {
                           voiceStop();
