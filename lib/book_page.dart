@@ -142,12 +142,14 @@ class _BookPageState extends State<BookPage> {
     await flutterTts.stop();
     await Future.delayed(const Duration(milliseconds: 550));
     await flutterTts.setLanguage(lang);
-    await flutterTts.setSpeechRate(0.7);
-    // if (selectLang == "ja-JA") {
-    //   await flutterTts.setSpeechRate(1.0);
-    // } else {
-    //   await flutterTts.setSpeechRate(1.0);
-    // }
+    // アプリの婆は遅めの方が良い
+    // await flutterTts.setSpeechRate(0.7);
+    // web用
+    if (selectLang == "ja-JA") {
+      await flutterTts.setSpeechRate(1.3);
+    } else {
+      await flutterTts.setSpeechRate(1.0);
+    }
     await flutterTts.setVolume(1.0);
     await flutterTts.setPitch(1.0);
     await flutterTts.speak(message);
@@ -165,11 +167,12 @@ class _BookPageState extends State<BookPage> {
     review();
     flutterTts = FlutterTts();
 
-    // if (isAuto) {
-    //   flutterTts.setCompletionHandler(() {
-    //     next();
-    //   });
-    // }
+    // iOSだと動作がおかしい
+    if (isAuto) {
+      flutterTts.setCompletionHandler(() {
+        next();
+      });
+    }
   }
 
   @override
