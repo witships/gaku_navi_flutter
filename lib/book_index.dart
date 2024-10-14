@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-// import 'package:gaku_navi_flutter_4/book_page.dart';
+import 'package:gaku_navi_flutter/book_page.dart';
 
 class BookIndex extends StatefulWidget {
   const BookIndex(
@@ -157,13 +157,13 @@ class _IndexItemState extends State<IndexItem> {
                           ? InkWell(
                           onTap: () {
                             debugPrint(item["title"]);
-                            // Navigator.push(context,
-                                // MaterialPageRoute(builder: (context) {
-                                //   return BookPage(
-                                //       id: widget.id,
-                                //       title: item["title"],
-                                //       href: item["href"]);
-                                // }));
+                            Navigator.push(context,
+                                MaterialPageRoute(builder: (context) {
+                                  return BookPage(
+                                      id: widget.id,
+                                      title: item["title"],
+                                      href: item["href"]);
+                                }));
                           },
                           child: Container(
                               padding: const EdgeInsets.all(5),
