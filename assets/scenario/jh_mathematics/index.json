@@ -1,0 +1,44 @@
+{
+  "title": "中学生に学んでほしい経済入門",
+  "thumbnail": "jh_mathematics.png",
+  "index": [
+    {
+      "part": "プロローグ",
+      "chapter": [
+        { "title": "オリエンテーション", "href": "#" },
+        { "title": "中学数学のゴール", "href": "#" }
+      ]
+    },
+    {
+      "part": "文字と式",
+      "chapter": [
+        { "title": "正の数・負の数", "href": "minus" },
+        { "title": "平方根", "href": "#" },
+        { "title": "文字を用いた式", "href": "#" },
+        { "title": "因数分解", "href": "prime_decomposition" },
+        { "title": "方程式", "href": "#" }
+      ]
+    },
+    {
+      "part": "図形",
+      "chapter": [
+        { "title": "平面図形", "href": "#" },
+        { "title": "空間図形", "href": "#" },
+        { "title": "合同", "href": "#" },
+        { "title": "相似", "href": "#" },
+        { "title": "円周角", "href": "#" },
+        { "title": "三平方の定理", "href": "#" }
+      ]
+    },
+    {
+      "part": "データの活用",
+      "chapter": [
+        { "title": "関数とグラフ", "href": "#" },
+        { "title": "度数の分布", "href": "#" },
+        { "title": "合同", "href": "#" },
+        { "title": "確率", "href": "#" },
+        { "title": "標本調査", "href": "#" }
+      ]
+    }
+  ]
+}

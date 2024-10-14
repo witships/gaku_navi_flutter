@@ -1,0 +1,34 @@
+[
+  {
+    "id": "jh_mathematics",
+    "title": "ザックリ中学数学",
+    "thumbnail": "jh_mathematics.png",
+    "release": "2022/11/06~",
+    "tags": ["中学", "数学"],
+    "open": true
+  },
+  {
+    "id": "jh_economy",
+    "title": "中学生に学んで欲しい経済入門",
+    "thumbnail": "jh_economy.png",
+    "release": "2023/1/12~",
+    "tags": ["中学", "経済"],
+    "open": true
+  },
+  {
+    "id": "jh_economy",
+    "title": "プログラミング",
+    "thumbnail": "failure_programming.png",
+    "release": "制作中",
+    "tags": ["プログラミング"],
+    "open": false
+  },
+  {
+    "id": "giveUp_English",
+    "title": "ギブアップ英語",
+    "thumbnail": "giveUp_English.png",
+    "release": "製作中",
+    "tags": ["中学", "英語"],
+    "open": false
+  }
+]

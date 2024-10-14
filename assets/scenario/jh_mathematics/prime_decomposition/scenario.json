@@ -1,0 +1,666 @@
+{
+  "chapter": "素因数分解",
+  "page": [
+    {
+      "title": {
+        "ja-JA": "初めから",
+        "en-EN": "from the beginning"
+      },
+      "message": [
+        {
+          "slide": "00.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "皆さん、こんにちは！学習ナビゲーターの長月です。今回は素因数分解について勉強していきます。",
+          "en-EN": "Hello everyone! This is Nagatsuki, a learning navigator. This time, we will study about prime factorization."
+        },
+        {
+          "slide": "00.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "中学校で初めて学習する単元なので不安かもしれないけれど、実はこの単元、小学校で習ったかけ算やわり算をほんのちょびっとだけレベルアップさせたものなんですね。",
+          "en-EN": "You may be nervous because this is the first unit you learn in junior high school, but in reality, this unit is a slightly improved version of the multiplication and division facts you learned in elementary school."
+        },
+        {
+          "slide": "00.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "小学校で算数が不安だった人も、ひとつずつ丁寧に説明していくので、一緒に頑張っていきましょう！",
+          "en-EN": "Even if you were worried about math in elementary school, we will explain each step in detail, so let's do our best together!"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "素因数分解って何？",
+        "en-EN": "What is prime factorization?"
+      },
+      "message": [
+        {
+          "slide": "00-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "そもそも「素因数」なんて言葉は初めて聞くし、なんだか難しそうに聞こえる言葉ですよね。でも知ってしまえば意外と簡単かもしれません。",
+          "en-EN": "First of all, this is the first time I've heard the word \"prime factor,\" and it sounds kind of difficult. But once you know it, it may be surprisingly easy."
+        },
+        {
+          "slide": "00-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "まずは言葉の意味を確認してから、実際にどんな問題がテストで出てくるのか見てみましょう。",
+          "en-EN": "First, let's check the meaning of the words, and then see what kind of questions will actually appear on the test."
+        },
+        {
+          "slide": "01-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "まずは「素因数分解」という言葉を見てみましょう。",
+          "en-EN": "First, let's look at the term \"prime factorization."
+        },
+        {
+          "slide": "01-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "「分解」というのは文字通りバラバラにすることですが、問題なのは、この「素因数」という言葉です。",
+          "en-EN": "'Decomposition' literally means breaking things apart, but the problem is the word \"prime factors."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "因数って何？",
+        "en-EN": "What is a factor?"
+      },
+      "message": [
+        {
+          "slide": "01-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここで１つ問題です。12という数は、どんな数を掛け合わせて出来ている数でしょうか。",
+          "en-EN": "There is one problem here. What kind of numbers is the number 12 made by multiplying?"
+        },
+        {
+          "slide": "01-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "答えは、たくさんありますので、いくつか考えてみましょう。",
+          "en-EN": "There are many answers, so let's consider a few."
+        },
+        {
+          "slide": "01-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "例えば、小学校で習った掛け算九九には、[3x4=12]]や[2x6=12]なんてものがありましたね。",
+          "en-EN": "For example, the multiplication tables we learned in elementary school included [3x4=12] and [2x6=12]."
+        },
+        {
+          "slide": "01-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "他には、[1×12][2×2×３]なども、12をつくることができますね。",
+          "en-EN": "You can also make 12 with [1×12] and [2×2×3]."
+        },
+        {
+          "slide": "01-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "実はこんなふうに、ある数をかけ算の形で表したときの１つ１つの数のことを「因数」とよびます。",
+          "en-EN": "In fact, when a number is expressed in the form of multiplication, each number is called a \"factor."
+        },
+        {
+          "slide": "01-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "例えば[12=4×３]と表したとき、4も3も、「12の因数」と呼ぶことができます。",
+          "en-EN": "For example, when expressed as [12=4×3], both 4 and 3 can be called \"factors of 12."
+        },
+        {
+          "slide": "01-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ちなみに、4も3も、12をあまりなく割り切ることができるので、小学校で習った「約数」とも呼ぶことができます。",
+          "en-EN": "By the way, both 4 and 3 can be divided by 12 without much difference, so they can also be called the \"divisors\" that we learned in elementary school."
+        },
+        {
+          "slide": "01-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "「因数と約数は、呼び方が違うだけで、数字は同じものになります。",
+          "en-EN": "``Factors and divisors are the same number, just called differently."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "素数って何？",
+        "en-EN": "What is a prime number?"
+      },
+      "message": [
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "次に「素数」について見ていきましょう。",
+          "en-EN": "Next, let's look at \"prime numbers\"."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "結論から言うと、「素数」とは「1とその数以外に約数をもたない自然数」のことを言います。",
+          "en-EN": "In conclusion, a ``prime number'' is a ``natural number that has no divisors other than 1 and that number.''"
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "なんだか難しく聞こえるでしょうか？ その場合は、「約数を２つしか持たない数」と覚えると分かりやすいかもしれません。",
+          "en-EN": "Does it sound kind of difficult? In that case, it may be easier to understand if you remember that it is a number that has only two divisors."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "「約数ってなんだっけ…やばい…」っていう人はいますか？「約数」は「その数をあまりなく割り切れる数」のことでしたね。",
+          "en-EN": "Is there anyone who says, \"What is a divisor? That's terrible...\"? A \"divisor\" is a number that can evenly divide a number without much."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "では、具体的に素数とはいくつなのか見ていきましょう。例として、1から6に対して、それぞれの約数を書き出してみました。",
+          "en-EN": "Now, let's take a look at what exactly is a prime number. As an example, I wrote out the divisors for each of 1 to 6."
+        },
+        {
+          "slide": "01-5.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "もう一度確認ですが、「約数はその数を割り切ることのできる数、「素数は約数を2つしかもたない数のことです。",
+          "en-EN": "To confirm again, ``A divisor is a number that can evenly divide the number, and ``A prime number is a number that has only two divisors."
+        },
+        {
+          "slide": "01-5.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それでは、ここにある1から6の中で、素数はどれになるでしょうか。考えてみましょう。",
+          "en-EN": "So, which number from 1 to 6 is a prime number? Let's think about it."
+        },
+        {
+          "slide": "01-6.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "正解は、[2、3、5]の3つです！",
+          "en-EN": "There are three correct answers: [2, 3, 5]!"
+        },
+        {
+          "slide": "01-6.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "他の数は、約数を１つしかもたない、もしくは3つ以上もってしまっているので素数ではありません。",
+          "en-EN": "Other numbers are not prime numbers because they have only one divisor or three or more divisors."
+        },
+        {
+          "slide": "01-6.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "特に1を間違えてしまう人が多いですが、1の約数は[1]の1つだけですので素数ではありません。気を付けましょう。",
+          "en-EN": "In particular, many people get 1 wrong, but 1 has only one divisor, [1], so it is not a prime number. Be careful."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "グロタンティーク素数",
+        "en-EN": "grotantique prime numbers"
+      },
+      "message": [
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここで素数に関する興味深い話を１つご紹介します。",
+          "en-EN": "Here I would like to tell you an interesting story about prime numbers."
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "素数を学んだ皆さんは、57が素数かどうか分かるでしょうか。",
+          "en-EN": "For those of you who have learned about prime numbers, do you know whether 57 is a prime number?"
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "57を割り切ることが出来る約数はいくつあるか考えてみましょう。",
+          "en-EN": "Let's think about how many divisors there are that can divide 57."
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "数が大きくて少し難しかったかもしれませんが、57は[1、3、19、57]の4つを約数に持つ数です。",
+          "en-EN": "It may have been a little difficult because it was a large number, but 57 is a number that has four divisors: [1, 3, 19, 57]."
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "そのため、57は素数ではありません。",
+          "en-EN": "Therefore, 57 is not a prime number."
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "しかしある時、天才数学者のグロタンディーク先生が「57は素数である」と発言しました。",
+          "en-EN": "However, one day, the genius mathematician Professor Grothendieck said, ``57 is a prime number.''"
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "グロタンディーク先生が本当に間違えたのか、もしくは冗談のつもりで言ったのかは定かではありませんが、",
+          "en-EN": "It is unclear whether Dr. Grothendieck really made a mistake or whether he meant it as a joke."
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それを聞いた人たちは「数学者の先生が言うんだから、実は57は素数なのか」と信じてしまいました。",
+          "en-EN": "When people heard this, they believed it and thought, ``Because my mathematician teacher said it, 57 is actually a prime number.''"
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "57は素数ではないのですが、このような逸話から「グロタンディーク素数」なんていう別名があります。",
+          "en-EN": "Although 57 is not a prime number, it has another name, ``Grothendieck prime'', because of this anecdote."
+        },
+        {
+          "slide": "01-7.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "素数は身近な数字ではある一方で、「数字が大きくなると途端に素数かどうか判断するのが難しくなる」ということがよく分かる逸話ですね。",
+          "en-EN": "While prime numbers are familiar numbers, this is an anecdote that clearly shows that ``as a number gets larger, it becomes difficult to determine whether it is a prime number.''"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "素因数分解",
+        "en-EN": "prime factorization"
+      },
+      "message": [
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それでは「素因数」という言葉に戻りましょう。",
+          "en-EN": "So let's go back to the word \"prime factors\"."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "素因数は「素数」と「因数」の２つの言葉が合わさったものです。",
+          "en-EN": "A prime factor is a combination of two words: \"prime number\" and \"factor."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "即ち、素因数分解とは「ある数を素数だけの掛け算」の形で表すことをいいます。",
+          "en-EN": "In other words, prime factorization refers to expressing a number in the form of \"multiplying only prime numbers."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "これは具体例を見てしまったほうが早いので、例として12を素因数分解してみましょう。",
+          "en-EN": "It's easier to understand this by looking at a concrete example, so let's factorize 12 as an example."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "例えば、12は[4×3]と表すことができます。ただし、4は素数ではなく、さらに細かい数に分解することができます。",
+          "en-EN": "For example, 12 can be represented as [4×3]. However, 4 is not a prime number and can be broken down into smaller numbers."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "4は[2×2]に分解ができるので、12は[2×2×3]と表すことができます。",
+          "en-EN": "Since 4 can be decomposed into [2×2], 12 can be expressed as [2×2×3]."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "2も3も素数なので、これで12を素数の掛け算だけで表すことができました。",
+          "en-EN": "Since 2 and 3 are both prime numbers, we can now represent 12 just by multiplying by prime numbers."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このように[12=2×2×3]と表すことが、素因数分解とよばれるものになります。",
+          "en-EN": "Expressing it as [12=2×2×3] in this way is called prime factorization."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここでは何となく分かってもらえれば大丈夫です。",
+          "en-EN": "As long as you understand something here, you'll be fine."
+        },
+        {
+          "slide": "01-8.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "次に、より楽に素因数分解を進める方法をお伝えします。",
+          "en-EN": "Next, I will tell you how to proceed with prime factorization more easily."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "素因数分解の進め方",
+        "en-EN": "How to proceed with prime factorization"
+      },
+      "message": [
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今度は例として、60を素因数分解してみましょう。",
+          "en-EN": "As an example, let's factorize 60 into prime factors."
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "素因数分解では、割り算の筆算を繰り返していく要領で進めていきます。",
+          "en-EN": "In prime factorization, we proceed by repeating division by hand."
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ただし「素因数分解」ですので、割る数は素数に限定です。",
+          "en-EN": "However, since it is a \"prime factorization\", the number to be divided is limited to prime numbers."
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "まずは図を見てください。ここでは、60を割り切れる素数を考えていきます。",
+          "en-EN": "Please look at the diagram first. Here, we will consider prime numbers that are divisible by 60."
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "60を割り切れる素数はいくつかありますが、どんな数があるでしょうか？",
+          "en-EN": "There are several prime numbers that are divisible by 60, but what kind of numbers are there?"
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "思いつきましたか？　60を割り切れる素数には、[2，3，5]など、いくつかありますね。",
+          "en-EN": "Did you come up with an idea? There are several prime numbers that are divisible by 60, such as [2, 3, 5]."
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "素数であればどれで割っても大丈夫なので、思いついた素数でどんどん割っていきましょう。",
+          "en-EN": "You can divide by any prime number as long as it is a prime number, so keep dividing by any prime number you can think of."
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここでは2で割ってみたいと思います。割り算の筆算のように、60を2で割り、出てきた数を下に書きます。",
+          "en-EN": "Here I would like to divide by 2. Just like dividing by hand, divide 60 by 2 and write the resulting number below."
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "[60÷2=30]ですので、図のようになります。",
+          "en-EN": "[60÷2=30], so it will be as shown in the figure."
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "次に、30を割り切れる素数を考えていきます。",
+          "en-EN": "Next, let's think of prime numbers that are divisible by 30."
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "何があるか考えてみましょう。30を割り切ることのできる素数は、[2、3、5]などがありますね。",
+          "en-EN": "Let's think about what we have. Prime numbers that can divide 30 include [2, 3, 5], etc."
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "どれで割っても大丈夫ですが、今度は3で割ってみたいと思います。",
+          "en-EN": "You can divide it by any number, but this time I would like to divide it by 3."
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "[30÷3=10]なので、10を下に書いていきます。",
+          "en-EN": "[30÷3=10], so write 10 below."
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このように素数で割ることを繰り返し、割って出てくる数が素数になれば終了です。",
+          "en-EN": "Repeat division by a prime number in this way, and if the number that comes out after division is a prime number, you are done."
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "10は素数ではないので、まだ続けていきます。",
+          "en-EN": "Since 10 is not a prime number, we will continue."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今度は10を割り切ることのできる素数を考えます。どんな数があるでしょうか。",
+          "en-EN": "Next, let's consider prime numbers that are divisible by 10. What numbers are there?"
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "分かりましたか？10を割り切ることのできる素数は、2と５の2つがありますね。",
+          "en-EN": "Did you understand? There are two prime numbers that can divide 10: 2 and 5."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "どちらで割ってもよいのですが、今回は2で割ってみます。",
+          "en-EN": "You can divide it by either, but this time I will divide it by 2."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "10÷2イコール５なので、５を下に書きます。",
+          "en-EN": "10÷2 equals 5, so write 5 below."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "５は素数ですので、ここで素因数分解が終了となります。",
+          "en-EN": "Since 5 is a prime number, the prime factorization ends here."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "赤まるで囲まれた数で60を割ってきたため、逆にこれらの数を掛け合わせると、元の60に戻すことができます。",
+          "en-EN": "Since we have divided 60 by the number enclosed in the red circle, we can return it to the original 60 by multiplying these numbers together."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "つまり60は[2×2×3×５]という形に素因数分解できたということになります。",
+          "en-EN": "In other words, 60 can be factorized into the form [2×2×3×5]."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "60を素因数分解しなさいという問題の答えは、[60=2×2×3×5]となります。",
+          "en-EN": "The answer to the question of factoring 60 into prime factors is [60=2×2×3×5]."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このとき、数が小さい順に並べて書いてあげると、自分も採点者も見やすくなります。",
+          "en-EN": "At this time, if you write the numbers in descending order, it will be easier for both you and the grader to see."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "また、2×2のように同じ数が複数あるとき、まとめて表記する方法を累乗というのですが、それはまた別の機会にお話ししますので、お楽しみにしましょう。",
+          "en-EN": "Also, when there are multiple numbers of the same number, such as 2×2, the way to express them all is called exponentiation, but we will talk about that on another occasion, so stay tuned."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "何の役に立つの？",
+        "en-EN": "What's the use?"
+      },
+      "message": [
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "最後に、素因数分解が身の回りの生活でどんなことに利用されているか、簡単にご紹介します。",
+          "en-EN": "Finally, I will briefly introduce how prime factorization is used in everyday life."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "突然問題ですが、1040257を素因数分解するとどうなるでしょうか。",
+          "en-EN": "This is a sudden question, but what happens when you factorize 1040257 into prime factors?"
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "なんだか数字を聞いた瞬間に諦めたくなりますよね。その答えは[1040257=127×8191]です",
+          "en-EN": "I feel like giving up as soon as I hear the numbers. The answer is [1040257=127×8191]"
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "1040257とは、2つの素数である127と8191を掛け合わせた数なんですね。",
+          "en-EN": "1040257 is the product of two prime numbers, 127 and 8191."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "127と8191をかけて1040257を求めるのは簡単です。電卓を使えば一瞬で計算できますね。",
+          "en-EN": "Multiplying 127 and 8191 to get 1040257 is easy. You can calculate it in an instant using a calculator."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "しかし反対に、1040257を、127と8191という素因数に分解するのは非常に難しいんです。",
+          "en-EN": "However, on the other hand, it is extremely difficult to decompose 1040257 into the prime factors of 127 and 8191."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "電卓どころか、実はコンピュータを使っても、求めるのは大変なんですよ？",
+          "en-EN": "It's actually difficult to find the answer even with a computer, let alone a calculator."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "もっと桁数が大きくなると、高性能のコンピュータでも何千年もの計算時間が必要となってしまいます。",
+          "en-EN": "If the number of digits becomes larger, even a high-performance computer would require thousands of years of calculation time."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "これを逆手にとって活用されているのが「暗号化技術」なんですよ？",
+          "en-EN": "Encryption technology is being used to take advantage of this."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "私たちの個人情報や、企業、国家などの大切な情報を、このような技術で守ってくれているのです。",
+          "en-EN": "These technologies protect our personal information, as well as important information about companies, countries, etc."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ただの数字が様々な意味をもち、私たちの生活を支えてくれているというのは、とても興味深いですね。",
+          "en-EN": "It's very interesting that mere numbers have various meanings and support our lives."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "終わりに",
+        "en-EN": "At the end"
+      },
+      "message": [
+        {
+          "slide": "end.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "以上、今回は中学数学の第一歩である素因数分解について学習しましたが、これからもっとたくさんの面白い数学の世界が待ち構えています。",
+          "en-EN": "This time, we learned about prime factorization, which is the first step in junior high school mathematics, but there is a lot more interesting world of mathematics waiting for us in the future."
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "数学がどのように役立っているのかというお話もしていきますので、一緒に楽しく数学の世界を旅していきましょうね。",
+          "en-EN": "We'll also talk about how mathematics is useful, so let's have fun traveling through the world of mathematics together."
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それでは、またお会いしましょう！",
+          "en-EN": "See you soon!"
+        }
+      ]
+    }
+  ],
+  "training": true
+}

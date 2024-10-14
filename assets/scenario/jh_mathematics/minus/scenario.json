@@ -1,0 +1,968 @@
+{
+  "chapter": "マイナスの数",
+  "page": [
+    {
+      "title": {
+        "ja-JA": "初めから",
+        "en-EN": "Start"
+      },
+      "message": [
+        {
+          "slide": "00.jpg",
+          "actor": "no",
+          "actorImg": "noimage.png",
+          "ja-JA": "ここをクリックしてね",
+          "en-EN": "Click me"
+        },
+        {
+          "slide": "00.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "皆さん、こんにちは。学習ナビゲーターのハルミナです。",
+          "en-EN": "Hello everyone. My name is Harumina and I am a learning navigator."
+        },
+        {
+          "slide": "00.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "今回は「マイナスの数」について、学習していきましょう。別の言い方では「負の数」とも言います。",
+          "en-EN": "This time, let's learn about \"negative numbers\". In other words, it is also called a \"negative number."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "マイナスの数とは?",
+        "en-EN": "What is a negative number?"
+      },
+      "message": [
+        {
+          "slide": "01-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "いきなり結論を言ってしまうと、マイナスの数とは「0より小さい数」のことを言います。",
+          "en-EN": "To jump to the conclusion, a negative number is a number less than 0."
+        },
+        {
+          "slide": "01-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "書き方としては、引き算の時と同じ記号を使って表現します。",
+          "en-EN": "To write it, use the same symbols as for subtraction."
+        },
+        {
+          "slide": "01-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "身近な例では、気温が分かりやすいでしょう。北海道の冬の気温などで「-4度」とか聞いたことがありますよね？",
+          "en-EN": "A familiar example would be temperature. Have you ever heard that the winter temperature in Hokkaido is \"-4 degrees\"?"
+        },
+        {
+          "slide": "01-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "気温マイナス4度とは、0度よりもさらに4度低い気温だということを意味しています。",
+          "en-EN": "A temperature of minus 4 degrees means that the temperature is 4 degrees lower than 0 degrees."
+        },
+        {
+          "slide": "01-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "こんな感じで、マイナスの数は普段の生活の中でも自然に使われているので、特別難しい話ではないでしょう。",
+          "en-EN": "In this way, negative numbers are used naturally in everyday life, so it's not a particularly difficult topic."
+        },
+        {
+          "slide": "01-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "……といった説明だけで、簡単に納得できるようだったら、話は早いんですけどねぇ？",
+          "en-EN": "If it's easy to understand with just an e×planation like..., then it's too early to talk, isn't it?"
+        },
+        {
+          "slide": "01-3.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "0より小さいってどういうこと？　「リンゴが-3個ある」とか言われても訳分かんないんだけど？",
+          "en-EN": "What does less than 0 mean? I don't understand when someone says, \"There are -3 apples."
+        },
+        {
+          "slide": "01-3.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "-1個でも-3個でも、結局は1個もないっていうのが最終的な事実なんだから、全部0でいいんじゃないの？",
+          "en-EN": "Whether it's -1 or -3, the final fact is that there's none at all, so shouldn't it be all 0?"
+        },
+        {
+          "slide": "01-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "……みたいに疑問に感じる人もいるのではないでしょうか？　実は、同じように感じている人が、世界中にたくさんいるんですよ？",
+          "en-EN": "There may be some people who have doubts like... Actually, there are many people around the world who feel the same way."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "以前にもチラッとお話したように、数学の歴史は非常に古くて、",
+          "en-EN": "As I briefly mentioned before, the history of mathematics is very old."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "メソポタミア文明やエジプト文明など、人類初期の古代文明の時からすでに実用されていました。",
+          "en-EN": "It has already been put into practical use since ancient civilizations, such as Mesopotamian civilization and Egyptian civilization, were among the earliest human beings."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "その長い歴史に対して「マイナスの数」が発明されたのは7世紀ごろ、そしてそれが浸透したのは17世紀頃だと言われています。",
+          "en-EN": "With its long history, it is said that \"negative numbers\" were invented around the 7th century, and that they became popular around the 17th century."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "発明されてから浸透するまで1000年も掛かるくらい、みんななかなか納得できなかったんですね",
+          "en-EN": "It took 1,000 years after it was invented for it to become widespread, so it was difficult for everyone to accept it."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "そうだそうだ",
+          "en-EN": "That's right."
+        },
+        {
+          "slide": "01-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "……ということで、マイナスの数についてもう少し知るために、「数」そのものから改めて整理してみましょう",
+          "en-EN": "...So, in order to learn more about negative numbers, let's start with the \"numbers\" themselves."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "数の役割",
+        "en-EN": "role of numbers"
+      },
+      "message": [
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "一旦、根本的なところまで遡ると、そもそも「数」とは「ものが幾つ有るかを数える」ところから始まってますよね？",
+          "en-EN": "Once you go back to the basics, \"number\" begins with \"counting how many things there are,\" right?"
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「リンゴが1個有る」「リンゴが2個有る」「リンゴが3個有る」といったように、「存在する量を数えること」、それが数の最も根本的な役割です。",
+          "en-EN": "The most fundamental role of numbers is to count the amount that e×ists, such as ``There is one apple,'' ``There are two apples,'' and ``There are three apples.''"
+        },
+        {
+          "slide": "02-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "このことがしっかり頭の中にあるからこそ、マイナスの数について説明された時に……",
+          "en-EN": "It's because I have this in my head that when people e×plain about negative numbers..."
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "リンゴが-3個あるってどういうこと？",
+          "en-EN": "What does it mean to have -3 apples?"
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "……って、疑問に感じてしまうワケです。 しかし、それこそが誤解の原因なんです",
+          "en-EN": "...That makes me question it. But that's the reason for the misunderstanding"
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "なんだって、どういうことだ？",
+          "en-EN": "What, what do you mean?"
+        },
+        {
+          "slide": "02-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "確かに、数とは「ものの存在を数える」というのが根本的な役割だったんですが、ある時、誰かがふと気がついたんです。",
+          "en-EN": "It is true that the fundamental role of numbers was to \"count the e×istence of things,\" but one day, someone suddenly realized that."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "HAL.jpg",
+          "actor": "とある天才",
+          "ja-JA": "アレ? もしかして「いくつ存在するか」だけじゃなくて、「いくつ足りないか」も数えられるのでは?",
+          "en-EN": "What? Maybe we can count not only ``how many e×ist'' but also ``how many are missing''?"
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "そう、この気づきによって生まれたのが「マイナスの数」です。",
+          "en-EN": "Yes, \"negative numbers\" were born from this realization."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "今までは「いくつ存在するか」を数えるだけだったのが、「いくつ足りないか」も数えられるように、役割が増えたのです",
+          "en-EN": "Up until now, it had only been a matter of counting \"how many there are\", but now its role has increased to the point where it can also count \"how many are missing\"."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "つまり、リンゴが-3個とは「リンゴが-3個有る」のではなく「3個足りない」という意味なんですね",
+          "en-EN": "In other words, -3 apples does not mean \"there are -3 apples\", but \"3 apples are missing\"."
+        },
+        {
+          "slide": "02-3.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "ああ、なるほど。そう言われると、確かに分かるかも……しれない？",
+          "en-EN": "Ah, I see. If you say that, maybe you'll understand...maybe?"
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "こうして新たに「マイナスの数」が生まれたことで、今まで普通に使っていた「数」にも呼び名が必要になったので、",
+          "en-EN": "With the creation of a new \"negative number,\" it became necessary to give a name to the \"numbers\" that we had been using normally."
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "プラスの数「正の数」と呼ばれるようになりました",
+          "en-EN": "Positive numbers are now called \"positive numbers"
+        },
+        {
+          "slide": "02-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "プラスの数が存在を数える数、マイナスの数が不足を数える数、といった感じですね",
+          "en-EN": "It's like a positive number counts e×istence, and a negative number counts lack."
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "マイナスの数は、もともと借金を数えるために生まれた、と言われています",
+          "en-EN": "It is said that negative numbers were originally created to count debts."
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "もし「0より小さい数は全部0だ」ってことになったら、いくら借金しても全部0円になっちゃうでしょ？",
+          "en-EN": "If it were said that \"all numbers less than 0 are 0\", then no matter how much you borrow, it would all be 0 yen, right?"
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "なんて素晴らしい世界！",
+          "en-EN": "What a wonderful world!"
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "そんな訳にはいかないので、お金を1000円かりてるなら-1000円、3000円借りてるなら-3000円って書いて、きちんと数えたんですね",
+          "en-EN": "That doesn't work, so if I owed 1000 yen, I wrote -1000 yen, and if I borrowed 3000 yen, I wrote -3000 yen, and counted them properly."
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "現実は厳しい",
+          "en-EN": "reality is harsh"
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「お金が-3000円ある」って言われても意味分かんないですが、",
+          "en-EN": "I don't understand what it means when someone says, \"I have -3,000 yen."
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「3000円足りない」とか「借金が3000円ある」、だったら分かりますよね？",
+          "en-EN": "If you say, ``I don't have enough 3,000 yen,'' or ``I owe 3,000 yen,'' you'll understand, right?"
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "……ということで、マイナスの数とは「存在と不足」「現金と借金」のように、",
+          "en-EN": "...So, negative numbers are things like \"e×istence and lack\" and \"cash and debt\"."
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「通常とは反対の意味を持つ数」だと捉えてみてください",
+          "en-EN": "Please think of it as a \"number with a meaning opposite to normal\"."
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「マイナスの数とは0よりも小さい数のことだ」という説明だけでは納得できなかった人も、これで少し理解しやすくなったのではないでしょうか？",
+          "en-EN": "For those who were not satisfied with the e×planation that ``a negative number is a number less than 0,'' I hope this makes it a little easier to understand."
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "ぐふ、確かに",
+          "en-EN": "Gufu, sure"
+        },
+        {
+          "slide": "02-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "マイナスの数について何となくイメージ出来てきたら、後は具体的に計算できるようになりましょう",
+          "en-EN": "Once you have a vague idea of ​​negative numbers, you can then start calculating them in detail."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "例題",
+        "en-EN": "example"
+      },
+      "message": [
+        {
+          "slide": "03-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "いきなり例題を挙げると、[3000+(-2000)]、[(-3000)-(-2000)]、みたいな計算問題がよく出題されます",
+          "en-EN": "To give an example, calculation problems such as [3000+(-2000)] and [(-3000)-(-2000)] are often asked."
+        },
+        {
+          "slide": "03-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "数式だけ見てしまうと、「マイナスを足すってどういうこと？」「マイナスからマイナスを引くってどういうこと？」って戸惑っちゃいますよね？",
+          "en-EN": "If you just look at the formula, you'll be confused, wondering, \"What does it mean to add a minus?\" or \"What does it mean to subtract a minus from a minus?"
+        },
+        {
+          "slide": "03-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "しかし、先ほどの例のように、マイナスを「借金」に置き換えて考えてみると、どうでしょう？",
+          "en-EN": "However, as in the previous example, what would happen if we replaced negative with \"debt\"?"
+        },
+        {
+          "slide": "03-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[3000+(-2000)]とは、現金3000円の状態から、借金2000円を足したので、最終的に現金1000円が残ったという計算です",
+          "en-EN": "[3000+(-2000)] means that from 3000 yen in cash, we added 2000 yen in debt, so we ended up with 1000 yen left in cash."
+        },
+        {
+          "slide": "03-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「マイナスの数を足す」というのは、借金が増えるのと同じことです。結果としてお金が減りますよね。",
+          "en-EN": "``Adding a negative number'' is the same as increasing debt. As a result, you will lose money."
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[(-3000)-(-2000)]とは、すでに借金が3000円あって、そこから借金2000円を返したので、残りの借金が1000円になったという計算です",
+          "en-EN": "[(-3000)-(-2000)] means that you already owed 3000 yen, and you paid back 2000 yen, so the remaining debt is 1000 yen."
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「マイナスの数を引く」というのは、借金が減るのと同じことです。結果としてお金が増えるのと同じですよね",
+          "en-EN": "``Subtracting a negative number'' is the same as reducing debt. The result is more money, right?"
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "どうでしょう？　こうして具体的に考えてみると、マイナスの数なんて知らなかった時でも、いつのまにか自然にやってたような計算ですよね？",
+          "en-EN": "What do you think? When you think about it in detail, it seems like you were doing the calculations naturally even before you knew what a negative number was, right?"
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "数学が、何だか生々しい世界になったなぁ",
+          "en-EN": "Mathematics has somehow become a more vivid world."
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "数学の難しさって、「抽象化されすぎててイメージしにくい」ってところにあると思いますが、",
+          "en-EN": "I think the difficulty with mathematics is that it's so abstract that it's hard to imagine."
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "実は案外「生活の中で必要だったから生まれた」ものばかりです",
+          "en-EN": "In fact, surprisingly, most of them were created because they were necessary in daily life."
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "具体例で考えると、意外と身近で分かりやすいものが多いんですよ",
+          "en-EN": "When you think of concrete examples, many of them are surprisingly familiar and easy to understand."
+        },
+        {
+          "slide": "03-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "ただ、毎回具体的にイメージしてたら計算するのも大変なので、少しずつ抽象的なままの計算に慣れていきましょう",
+          "en-EN": "However, it is difficult to calculate if you have a concrete image every time, so let's get used to calculations that remain abstract little by little."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "足し算と引き算",
+        "en-EN": "addition and subtraction"
+      },
+      "message": [
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "改めて抽象的なルールとして整理すると「マイナスの数の足し算・引き算」は、",
+          "en-EN": "To summarize it again as an abstract rule, \"addition and subtraction of negative numbers\" is"
+        },
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "マイナスの数をプラスの数に戻すと、その手前にある足し算と引き算が逆転することになります",
+          "en-EN": "When you convert a negative number back to a positive number, the addition and subtraction operations before it are reversed."
+        },
+        {
+          "slide": "04-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "例えば、[8+(-7)]の場合は、[-7]を[+7]に変えると、足し算から引き算に変わります。結果として[8-7]という式に変換できます",
+          "en-EN": "For example, in the case of [8+(-7)], changing [-7] to [+7] changes the calculation from addition to subtraction. As a result, it can be converted to the e×pression [8-7]"
+        },
+        {
+          "slide": "04-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[6-(-3)]の場合なら、[-3]を[+3]にすると、引き算から足し算に変わります。結果として[6+3]という式に変換できます",
+          "en-EN": "In the case of [6-(-3)], changing [-3] to [+3] changes it from subtraction to addition. As a result, it can be converted to the e×pression [6+3]"
+        },
+        {
+          "slide": "04-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "マイナスの数の足し算はプラスの数の引き算に、マイナスの数の引き算はプラスの数の足し算に直せるワケです",
+          "en-EN": "Addition of negative numbers can be converted to subtraction of positive numbers, and subtraction of negative numbers can be converted to addition of positive numbers."
+        },
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "言葉で説明してしまうと抽象的なんですが、一度イメージできてしまえば計算ルール自体は非常にシンプルです",
+          "en-EN": "It sounds abstract if you try to e×plain it in words, but once you get an idea of ​​it, the calculation rules themselves are very simple."
+        },
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "練習問題を何問か解いていけば、すぐに身につくでしょう",
+          "en-EN": "If you do a few practice problems, you'll get the hang of it quickly."
+        },
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "足し算引き算に比べると、掛け算割り算はイメージしにくいかもしれません。でも結局はルールって全部繋がっているので、同じ考え方の延長なんですよ？",
+          "en-EN": "Compared to addition and subtraction, multiplication and division may be difficult to imagine. But in the end, all the rules are connected, so they're e×tensions of the same idea, right?"
+        },
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "ってことは、掛け算と割り算が逆転するのか？",
+          "en-EN": "Does that mean multiplication and division are reversed?"
+        },
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "残念、違います。",
+          "en-EN": "Unfortunately, no."
+        },
+        {
+          "slide": "04-1.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "なんてこった",
+          "en-EN": "Oh my god"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "掛け算",
+        "en-EN": "multiplication"
+      },
+      "message": [
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "マイナスの数を含んだ掛け算割り算の場合は「計算式の方にあるマイナスの数分だけ、答えの方のプラスマイナスが逆転」します",
+          "en-EN": "In the case of multiplication/division that includes negative numbers, ``the plus/minus of the answer is reversed by the number of minuses in the calculation formula.''"
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[2×3]を例に考えてみましょう。まず[2×3=6]。これがスタートですね",
+          "en-EN": "Let's take [2×3] as an example. First [2×3=6]. This is the start"
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[2×(-3)]の場合は、計算式の方にマイナスの数が1つなので、答えのプラスマイナスが1回逆転して、答えは(-6)になります",
+          "en-EN": "In the case of [2×(-3)], there is one negative number in the calculation formula, so the plus/minus of the answer is reversed once and the answer becomes (-6)."
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[(-2)×3]も同様に、計算式の方にマイナスの数が1つで同じなので、同じように1回逆転して、正解は(-6)です",
+          "en-EN": "Similarly, [(-2)×3] is the same because there is one negative number in the formula, so just reverse it once and the correct answer is (-6)."
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[(-2)×(-3)]の場合は、計算式の方のマイナスが2つなので、逆転の逆転でプラスに戻り、正解は(+6)になります",
+          "en-EN": "In the case of [(-2)×(-3)], there are two negatives in the calculation formula, so the reversal of the equation returns it to a positive value, and the correct answer is (+6)."
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "このように計算式側にマイナスの数がある分だけ、逆転、逆転の逆転、逆転の逆転の逆転というように、正解のプラスマイナスが逆転を繰り返します",
+          "en-EN": "In this way, as much as there is a negative number on the calculation formula side, the correct answer plus or minus will repeat reversals, such as reversal, reversal of reversal, reversal of reversal of reversal, etc."
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "ええ、何それ。何でそんなことになってんの？",
+          "en-EN": "Yeah, what's that? Why is this happening?"
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "そう思いますよね？　こうしてルールだけ聞いても、足し算引き算のルールと、掛け算割り算のルールが違いすぎるように聞こえてしまうでしょう",
+          "en-EN": "You think so, right? Even if you just listen to the rules, the rules for addition and subtraction will sound too different from the rules for multiplication and division."
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "でも全然そんなことはなくて、同じルールに沿っているんですよ",
+          "en-EN": "But that's not the case at all, they follow the same rules."
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "いやいやそんなバカなあ",
+          "en-EN": "No, you're that stupid"
+        },
+        {
+          "slide": "05-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "慌てない慌てない。落ち着いて考えてみましょう。",
+          "en-EN": "Don't panic, don't panic. Let's calm down and think about it."
+        },
+        {
+          "slide": "05-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "そもそも掛け算って、同じ足し算の繰り返しを書くのが大変だから、短くまとめたものでしたよね？",
+          "en-EN": "In the first place, multiplication was made short because it was difficult to write the same addition over and over again, right?"
+        },
+        {
+          "slide": "05-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "例えば、[1000×3]って、[1000+1000+1000]と、「1000を3回足す」って意味でしたよね？",
+          "en-EN": "For example, [1000×3] means [1000+1000+1000] and \"add 1000 three times,\" right?"
+        },
+        {
+          "slide": "05-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "同じように、[(-1000)×3]とは、[(-1000)+(-1000)+(-1000)]と、「(-1000)を3回足す」という意味なんですね",
+          "en-EN": "Similarly, [(-1000)×3] means [(-1000)+(-1000)+(-1000)] and \"add (-1000) three times."
+        },
+        {
+          "slide": "05-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "このように、掛け算とは足し算引き算の形に展開することができます。",
+          "en-EN": "In this way, multiplication can be e×panded into addition and subtraction."
+        },
+        {
+          "slide": "05-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "こうしてしまえば、あとはもう先ほどの足し算引き算のルールが使えますね。",
+          "en-EN": "Once you do this, you can use the rules for addition and subtraction from earlier."
+        },
+        {
+          "slide": "05-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "ということで、[(-1000)×3]を例に、もう一度整理してみましょう",
+          "en-EN": "So, let's organize it again using [(-1000)×3] as an example."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "なぜ反転するのか？",
+        "en-EN": "Why is it reversed?"
+      },
+      "message": [
+        {
+          "slide": "05-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "先ほど例に挙げた通り、[(-1000)×3]とは[(-1000)+(-1000)+(-1000)]という足し算の形に展開することができます",
+          "en-EN": "As mentioned in the example earlier, [(-1000)×3] can be e×panded into the addition form [(-1000)+(-1000)+(-1000)]"
+        },
+        {
+          "slide": "05-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "ただ、最初の(-1000)の手前にも足し算が隠れている、ということを忘れがちです",
+          "en-EN": "However, we tend to forget that the addition is hidden even before the first (-1000)."
+        },
+        {
+          "slide": "05-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "そのため、先頭に0をつけて、[0+(-1000)+(-1000)+(-1000)]、としておきましょう",
+          "en-EN": "Therefore, add 0 at the beginning and write it as [0+(-1000)+(-1000)+(-1000)]"
+        },
+        {
+          "slide": "05-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "ここまできたら、あとはもう順番に変えていくだけですね",
+          "en-EN": "Once you've gotten this far, all you have to do is change the order."
+        },
+        {
+          "slide": "05-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "(-1000)を(+1000)に変えると、その代わりに足し算が引き算に変わるので、[0-1000-1000-1000]となるわけです",
+          "en-EN": "When you change (-1000) to (+1000), addition changes to subtraction, so it becomes [0-1000-1000-1000]."
+        },
+        {
+          "slide": "05-3.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "その結果、答えは(-3000)。[(-1000)×3]は、計算式側にマイナスの数が1つなので、答えの方も1回プラスマイナスが逆転してマイナスになるんですね",
+          "en-EN": "As a result, the answer is (-3000). [(-1000)×3] has one negative number on the calculation formula side, so the answer is also reversed once and becomes negative."
+        },
+        {
+          "slide": "05-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[(-1000)×(-3)]の場合も同様ですね。(-1000)を3回引いているという意味なので、これを展開すると、",
+          "en-EN": "The same goes for [(-1000)×(-3)]. This means that (-1000) is subtracted three times, so if you e×pand this,"
+        },
+        {
+          "slide": "05-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[0-(-1000)-(-1000)-(-1000)]になります",
+          "en-EN": "It becomes [0-(-1000)-(-1000)-(-1000)]"
+        },
+        {
+          "slide": "05-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "(-1000)を(+1000)に変えると、今度は引き算が足し算に変わるので、[0+1000+1000+1000]になるわけです",
+          "en-EN": "When you change (-1000) to (+1000), subtraction turns into addition, so it becomes [0+1000+1000+1000]"
+        },
+        {
+          "slide": "05-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "このように確かめてみた結果、計算式側にあるマイナスのかず分だけ、答え側のプラスマイナスが逆転する、ということが分かったワケですね",
+          "en-EN": "As a result of checking this way, I found that the plus/minus on the answer side is reversed by the amount of minus on the calculation formula side."
+        },
+        {
+          "slide": "05-4.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "うーん、分かったような分からないような",
+          "en-EN": "Hmm, I think I understand, but I don't know."
+        },
+        {
+          "slide": "05-4.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "まあ、なかなかそう簡単にスパッと理解なんて出来ませんよね？",
+          "en-EN": "Well, it's not that easy to understand, right? Under such circumstances, the most difficult thing to explain is division."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "マイナス×マイナス",
+        "en-EN": "minus × minus"
+      },
+      "message": [
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「マイナス×マイナスはプラスになる」と、そのまま暗記しちゃっている人は、大人でも意外と多く、",
+          "en-EN": "There are surprisingly many people, even adults, who memorize the phrase \"minus × minus becomes plus."
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "「何でマイナスにマイナスを掛けるとプラスになるんだっけ？」と、改めて質問されると、困っちゃう人も結構多いんですよ？",
+          "en-EN": "When asked again, ``Why does multiplying a negative by a negative result in a positive result?'', many people get confused."
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "確認のため改めてお話ししておくと、「マイナス×マイナス」の計算とは、「マイナスの引き算」の集合体です。",
+          "en-EN": "Just to confirm, the calculation of \"minus × minus\" is a collection of \"minus subtractions\"."
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "借金が増えるのがマイナスだとするなら、反対に借金が減るというのはプラスですよね？",
+          "en-EN": "If increasing debt is a negative, then decreasing debt is a positive, right?"
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "他にはスポーツなどで考えるなら、反則などで敵の得点が減ったら、自分にとってはプラスになりますよね？",
+          "en-EN": "Another way to think about it is in sports, if your opponent loses points due to a foul, isn't it a positive thing for you?"
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "あるいはゲームなどで例えるなら、バリアによって受けるダメージが減ったら、それってプラスの効果だと言えますよね？",
+          "en-EN": "Or, to use a game analogy, if the damage you receive is reduced by a barrier, you could say that's a positive effect, right?"
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "このように、マイナスが減るというのは、負担が減って楽になるってことなので、プラスの効果があるワケです",
+          "en-EN": "In this way, reducing the negative means that the burden is reduced and it becomes easier, so it has a positive effect."
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "マイナス×マイナスの計算というのは、そのマイナスの引き算の繰り返しなので、結局はプラスの繰り返しになるんですね",
+          "en-EN": "Calculating minus × minus is a repeated subtraction of the minus, so it ends up being a repeat of the plus."
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "借金1000円を3回返済したら、[(-1000円)×(-3回)]って式になるワケです。",
+          "en-EN": "If you repay a debt of 1,000 yen three times, the formula becomes [(-1,000 yen) × (-3 times)]."
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "どうでしょう？  「引き算の集合体」という点を見落とされがちなんですが、そこさえ分かれば理由は簡単ですよね？",
+          "en-EN": "What do you think?  The point that it is a \"subtraction collection\" is often overlooked, but once you understand that, the reason is simple, isn't it?"
+        },
+        {
+          "slide": "05-5.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "うーん、まあ、確かに、分かるっちゃ分かる",
+          "en-EN": "Hmm, well, sure, I know."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "割り算",
+        "en-EN": "division"
+      },
+      "message": [
+        {
+          "slide": "06-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "割り算の場合も計算ルール自体は掛け算と同じです。計算式側にあるマイナスのかず分だけ、答え側のプラスマイナスが逆転します。",
+          "en-EN": "The calculation rules for division are the same as for multiplication. The plus/minus on the answer side is reversed by the amount of minus on the calculation formula side."
+        },
+        {
+          "slide": "06-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[6÷3=2]を例にすると、[6÷(-3)]なら、計算式側のマイナスの数が1つなので、答え側が1回逆転して答えは(-2)になります",
+          "en-EN": "Taking [6÷3=2] as an example, if it is [6÷(-3)], there is one negative number on the calculation side, so the answer side will be reversed once and the answer will be (-2)."
+        },
+        {
+          "slide": "06-1.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "[6÷(-3)=2]の場合なら、計算式側のマイナスの数が2つなので、答え側も2回逆転して、答えはプラス2になります",
+          "en-EN": "In the case of [6÷(-3)=2], there are two negative numbers on the formula side, so the answer side is also reversed twice and the answer becomes plus 2."
+        },
+        {
+          "slide": "06-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "割り算って、逆数の掛け算に直せる、ってルールがありましたよね？　だからマイナスの数の場合も、割り算は掛け算と同じルールが通じるんですね",
+          "en-EN": "There's a rule that says division can be converted into multiplication of reciprocals, right? So even in the case of negative numbers, the same rules apply for division as for multiplication."
+        },
+        {
+          "slide": "06-2.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "ああ……、確かにそんなのあったけど……、うーん、何だか分かるような分からないような……",
+          "en-EN": "Ah... I'm sure there was something like that, but... hmm, I feel like I don't know what it is..."
+        },
+        {
+          "slide": "06-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "まあ、いきなりそう簡単にはスパッと理解なんて出来ませんよね？",
+          "en-EN": "Well, it's not that easy to understand all of a sudden, right?"
+        },
+        {
+          "slide": "06-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "先ほどもお話したように、マイナスの数というのは、「頭では理解できても何だかしっくりこない」となかなか受け入れられなかった歴史があります",
+          "en-EN": "As I mentioned earlier, negative numbers have a history of being difficult to accept, with people saying, ``Even if you understand it intellectually, it doesn't quite sit right with you.''"
+        },
+        {
+          "slide": "06-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "だから、説明されたところで「すぐには納得できない」と感じてしまったとしても、仕方ないコトでしょう",
+          "en-EN": "So even if you feel like you can't understand it right away after it's e×plained to you, it can't be helped."
+        },
+        {
+          "slide": "06-2.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "ただ、1度覚えてしまえば計算ルール自体は簡単です。使っている内に慣れていきますよ。",
+          "en-EN": "However, once you remember it, the calculation rules themselves are easy. You'll get used to it as you use it."
+        },
+        {
+          "slide": "06-2.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "そういうのキラーイ",
+          "en-EN": "I hate that kind of thing"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "終わりに",
+        "en-EN": "At the end"
+      },
+      "message": [
+        {
+          "slide": "end.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "さて、いかがだったでしょうか？",
+          "en-EN": "So, what do you think?"
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "マイナスの数の計算は、世界中の人々が「なんか納得できない」と拒否し続けてきた、実は非常に厄介な計算です",
+          "en-EN": "Calculating negative numbers is actually a very troublesome calculation that people all over the world have rejected, saying it doesn't make sense."
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "覚えてしまえば計算は簡単にできるかもしれませんが、「こんな計算、何の役に立つんだ？」みたいに感じさせてくるでしょう",
+          "en-EN": "Calculations may be easy once you memorize them, but they may make you wonder, \"What's the use of these calculations?"
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "多くの人たちを数学嫌いにさせてきた、中学数学の最初の関門といっても過言ではありません",
+          "en-EN": "It is no e×aggeration to say that it is the first gateway to middle school mathematics that has made many people dislike mathematics."
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "あまりややこしく考えずに、「ああ、借金の計算のことでしょ」くらいに気楽に捉えましょう",
+          "en-EN": "Don't think about it too complicatedly, just take it casually and say, ``Oh, it's about calculating debt, right?''"
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "yaji.png",
+          "actor": "ヤジ",
+          "ja-JA": "借金を気楽に考えちゃいかんけどな",
+          "en-EN": "I don't think about debt lightly."
+        },
+        {
+          "slide": "end.jpg",
+          "actorImg": "Harumina.png",
+          "actor": "ハルミナ",
+          "ja-JA": "ということで、本日はここまで。それではまた、次の機会にお会いしましょう。ありがとうございましたー",
+          "en-EN": "So that's all for today. See you ne×t time. Thank you very much"
+        }
+      ]
+    }
+  ],
+  "training": true
+}
