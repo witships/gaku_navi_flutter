@@ -54,7 +54,8 @@ class _BookPageState extends State<BookPage> {
   String actorImageFile = "null.png";
   String actorImageSrc = "assets/scenario/actor/noImage.png";
   String slideFile = "oo.jpg";
-  String slideSrc = "assets/scenario/jh_mathematics/minus/end.jpg";
+  String slideSrc = "assets/scenario/jh_mathematics/minus/00.jpg";
+  String slideSrc2 = "assets/scenario/jh_mathematics/minus/00.jpg";
   String message = "Hello World!";
   bool isMenu = true;
   bool isText = true;
@@ -84,6 +85,9 @@ class _BookPageState extends State<BookPage> {
   // 画面更新
   void review() {
     setState(() {
+      if (slideSrc2 != slideSrc) {
+        slideSrc2 = slideSrc;
+      }
       pageLength = scenarioData.length;
       messageLength = scenarioData[pageIndex]['message'].length;
       slideFile = scenarioData[pageIndex]['message'][messageIndex]["slide"];
@@ -144,7 +148,7 @@ class _BookPageState extends State<BookPage> {
     // await flutterTts.setSpeechRate(0.7);
     // web用
     if (selectLang == "ja-JA") {
-      await flutterTts.setSpeechRate(1.3);
+      await flutterTts.setSpeechRate(1.4);
     } else {
       await flutterTts.setSpeechRate(1.0);
     }
@@ -309,12 +313,15 @@ class _BookPageState extends State<BookPage> {
                           ),
                         ),
                       Expanded(
-                          child: InkWell(
-                        child: Image.asset(slideSrc),
-                        onTap: () {
-                          next();
-                        },
-                      )),
+                          child: Stack(children: [
+                        Image.asset(slideSrc2),
+                        InkWell(
+                          child: Image.asset(slideSrc),
+                          onTap: () {
+                            next();
+                          },
+                        ),
+                      ])),
                     ],
                   ),
                 ),
