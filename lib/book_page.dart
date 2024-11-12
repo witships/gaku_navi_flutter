@@ -54,8 +54,8 @@ class _BookPageState extends State<BookPage> {
   String actorImageFile = "null.png";
   String actorImageSrc = "assets/scenario/actor/noImage.png";
   String slideFile = "oo.jpg";
-  String slideSrc = "assets/scenario/jh_mathematics/minus/00.jpg";
-  String slideSrc2 = "assets/scenario/jh_mathematics/minus/00.jpg";
+  String slideSrc = "assets/scenario/blank.png";
+  String slideSrc2 = "assets/scenario/blank.png";
   String message = "Hello World!";
   bool isMenu = true;
   bool isText = true;
