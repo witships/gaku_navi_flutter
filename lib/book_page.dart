@@ -314,12 +314,14 @@ class _BookPageState extends State<BookPage> {
                         ),
                       Expanded(
                           child: Stack(children: [
-                        Image.asset(slideSrc2),
-                        InkWell(
-                          child: Image.asset(slideSrc),
-                          onTap: () {
-                            next();
-                          },
+                        Center(child: Image.asset(slideSrc2)),
+                        Center(
+                          child: InkWell(
+                            child: Image.asset(slideSrc),
+                            onTap: () {
+                              next();
+                            },
+                          ),
                         ),
                       ])),
                     ],
