@@ -9,6 +9,13 @@
       "message": [
         {
           "slide": "00.jpg",
+          "actor": "no",
+          "actorImg": "noimage.png",
+          "ja-JA": "ここをクリックしてね",
+          "en-EN": "Click me"
+        },
+        {
+          "slide": "00.jpg",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "皆さん、こんにちは！学習ナビゲーターの長月です。今回は素因数分解について勉強していきます。",
