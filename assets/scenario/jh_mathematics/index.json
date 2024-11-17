@@ -18,6 +18,16 @@
         { "title": "因数分解", "href": "prime_decomposition" },
         { "title": "方程式", "href": "#" }
       ]
+    },    {
+      "part": "関数",
+      "chapter": [
+        { "title": "関数とは", "href": "function01" },
+        { "title": "比例とは", "href": "#" },
+        { "title": "反比例とは", "href": "#" },
+        { "title": "グラフの基本", "href": "prime_decomposition" },
+        { "title": "比例のグラフ", "href": "#" },
+        { "title": "比例のグラフ", "href": "#" }
+      ]
     },
     {
       "part": "図形",

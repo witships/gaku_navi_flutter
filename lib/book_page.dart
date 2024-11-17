@@ -26,19 +26,17 @@ class _BookPageState extends State<BookPage> {
       "title": {"ja-JA": "初めから", "en-EN": "Start"},
       "message": [
         {
-          "slide": "00.jpg",
+          "slide": "00.PNG",
           "actor": "no",
           "actorImg": "noImage.png",
           "ja-JA": "ここをクリックしてね",
           "en-EN": "Click me"
-        },
-        {
-          "slide": "00.jpg",
-          "actor": "01",
+        }, {
+          "slide": "00.PNG",
+          "actor": "no",
           "actorImg": "noImage.png",
-          "ja-JA": "皆さん、こんにちは。学習ナビゲーターのハルミナです。",
-          "en-EN":
-              "Hello everyone. My name is Harumina and I am a learning navigator."
+          "ja-JA": "ここをクリックしてね",
+          "en-EN": "Click me"
         },
       ]
     },
@@ -148,9 +146,9 @@ class _BookPageState extends State<BookPage> {
     // await flutterTts.setSpeechRate(0.7);
     // web用
     if (selectLang == "ja-JA") {
-      await flutterTts.setSpeechRate(1.4);
+      await flutterTts.setSpeechRate(1.3);
     } else {
-      await flutterTts.setSpeechRate(1.0);
+      await flutterTts.setSpeechRate(1);
     }
     await flutterTts.setVolume(1.0);
     await flutterTts.setPitch(1.0);
