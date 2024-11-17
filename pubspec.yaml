@@ -36,6 +36,7 @@ flutter:
     - assets/scenario/jh_mathematics/minus/
     - assets/scenario/jh_mathematics/prime_decomposition/
     - assets/scenario/jh_mathematics/function01/
+    - assets/scenario/jh_mathematics/function02/
     - assets/scenario/jh_economy/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

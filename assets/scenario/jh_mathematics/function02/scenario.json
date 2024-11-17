@@ -1,0 +1,599 @@
+{
+  "title": "比例って何",
+  "page": [
+    {
+      "title": {
+        "ja-JA": "はじめから",
+        "en-EN": "from the beginning"
+      },
+      "message": [
+        {
+          "slide": "00.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここをクリックしてね",
+          "en-EN": "Click here"
+        },
+        {
+          "slide": "00.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "皆さんこんにちは！今回は関数の第2回目となります。",
+          "en-EN": "Hello everyone! This is the second time for the function."
+        },
+        {
+          "slide": "00.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "前回は関数とは何かについて学習しましたが、今日はいよいよその関数のうちの１つである、比例について学習していきます。",
+          "en-EN": "Last time we learned about what a function is, and today we will finally learn about one of those functions: proportionality."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "比例って何1",
+        "en-EN": "What is proportionality?1"
+      },
+      "message": [
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今日はいくつかの問題を通じて比例とは何かについて学習していきます。",
+          "en-EN": "Today we will learn about proportion through some problems."
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "とはいっても、基本はこれまでに学習してきた文字と式や、方程式の単元とほとんど一緒です。",
+          "en-EN": "However, the basics are almost the same as the characters, expressions, and equation units we have learned so far."
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "一歩ずつ、一緒に確認していきましょう！",
+          "en-EN": "Let's check it together step by step!"
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "はじめに、復習としてこの問題を考えてみましょう。",
+          "en-EN": "First, let's consider this problem as a review."
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "問題は、100円のりんごをｘ個買ったときの代金をｙ円とするときｙをｘの式で表してみましょう、です。",
+          "en-EN": "The problem is: Let's express y using the formula for x, assuming that the cost of buying x apples worth 100 yen is y yen."
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "すぐに式を作れましたか？",
+          "en-EN": "Were you able to create the ceremony right away?"
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "みなさん、この文章に見覚えはありませんか？そう、これは第1回目でも考えてもらった問題です。",
+          "en-EN": "Do you all recognize this sentence? Yes, this is the question I was asked to consider in the first session."
+        },
+        {
+          "slide": "01-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "2回目の問題なので、今回はすぐに答えを出してしまいます。\n答えは、ｙいこーる１００ｘでしたね。",
+          "en-EN": "This is the second time I've asked this question, so this time I'll answer it right away. The answer was 100x."
+        },
+        {
+          "slide": "01-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "同じく復習ですが、100のように固定され変えることのできない数を定数、様々な数に変身できる文字を変数と呼びました。",
+          "en-EN": "Similarly, as a review, numbers that are fixed and cannot be changed, such as 100, are called constants, and characters that can transform into various numbers are called variables."
+        },
+        {
+          "slide": "01-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "覚えていましたか？",
+          "en-EN": "Did you remember?"
+        },
+        {
+          "slide": "01-3.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それではここからが新しい内容です。",
+          "en-EN": "So here's the new content."
+        },
+        {
+          "slide": "01-3.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "この式のｘに、１，２，３と代入をしていったとします。",
+          "en-EN": "Suppose we substitute 1, 2, and 3 for x in this equation."
+        },
+        {
+          "slide": "01-3.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "そのとき、ｙの値はどのようになっていくでしょうか。",
+          "en-EN": "At that time, what will the value of y be?"
+        },
+        {
+          "slide": "01-3.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "表をうめることはできますか？",
+          "en-EN": "Can I fill in the table?"
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "正解はこちらになります。",
+          "en-EN": "Here is the correct answer."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ｙの値は100かけるｘで求めることができるので、100かける１で100、100かける２で200、100かける３で300となっていきますね。",
+          "en-EN": "The value of y can be found by 100 times x, so 100 times 1 gives 100, 100 times 2 gives 200, and 100 times 3 gives 300."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このとき、表を見ての通り、ｘの値が2倍3倍になると、ｙの値も同時に2倍3倍になっています。",
+          "en-EN": "At this time, as you can see from the table, when the value of x doubles or triples, the value of y also doubles or triples at the same time."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このように、一方が2倍3倍になるともう一方も2倍3倍となる関係を、比例と呼びます。",
+          "en-EN": "In this way, a relationship in which when one side increases by 2x3, the other side also increases by 2x3x is called proportionality."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "実は前回学習した内容は、すでに比例の話だったんですね。",
+          "en-EN": "Actually, what we learned last time was already about proportionality."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "比例って何2",
+        "en-EN": "What is proportionality?2"
+      },
+      "message": [
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それではここで１つ問題を考えてみましょう。",
+          "en-EN": "Now let's consider one problem."
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "次のアからウのうち、比例しているものを選んでみましょう。",
+          "en-EN": "From the following A to C, choose the one that is proportional."
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "改めて、比例とは一方が2倍3倍になるとき、もう一方も2倍3倍になる関係のことです。",
+          "en-EN": "Once again, proportionality means that when one side doubles or triples, the other side also doubles or triples."
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "xの値が大きくなればなるほどyは大きくなるのかどうかを基準に考えてみましょう。",
+          "en-EN": "Let's consider whether y increases as the value of x increases."
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それではシンキングタイムスタートです！",
+          "en-EN": "Let's start thinking time!"
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "(シンキングタイム)",
+          "en-EN": "(Thinking time)"
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "いかがだったでしょうか。\nそれでは1つずつ確認していきましょう。",
+          "en-EN": "What did you think? Let's check them one by one."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "はじめはアです。",
+          "en-EN": "The first one is A."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "Ｘはりんごの値段、ｙは代金を表していますね。",
+          "en-EN": "X represents the price of the apple, and y represents the price."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例を理解するため、まずはお買い物の状況をイメージしてみましょう。",
+          "en-EN": "To understand proportion, let's first imagine a shopping situation."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "りんごの値段が高くなると、代金はどうなるでしょうか。",
+          "en-EN": "If the price of apples increases, what will happen to the price?"
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "もちろん、値段が高くなればなるほど、代金も高くなりますよね。",
+          "en-EN": "Of course, the higher the price, the more you will have to pay."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "一方が大きくなるともう一方も大きくなる関係のため、xとyは比例の関係になりそうです。",
+          "en-EN": "As one increases, the other also increases, so x and y seem to be in a proportional relationship."
+        },
+        {
+          "slide": "01-7.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "より正確に判断するため、xとyを使った式をもとに考えてみましょう。",
+          "en-EN": "To make a more accurate judgment, let's think about it based on an expression using x and y."
+        },
+        {
+          "slide": "01-7.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "お買い物のときに支払う代金は、何円の値段のものを何個買うかで求めることができますね。",
+          "en-EN": "The price you pay when shopping can be determined by how many items you buy and at what yen price."
+        },
+        {
+          "slide": "01-7.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今回の問題文から当てはまる文字や数字を取り出すと、ｙいこーる５ｘという式が完成します。",
+          "en-EN": "If you take out the appropriate letters and numbers from this problem statement, you will complete the formula yikor5x."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここでｘに1、2、3のように、2倍3倍した数を代入していくと、yの値は5,10,15となっていきます。",
+          "en-EN": "If you substitute numbers multiplied by 2 and 3 for x, such as 1, 2, and 3, the values ​​of y will become 5, 10, and 15."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "Xの値と同じく2倍3倍となっているため、これは間違いなく比例だと判断ができます。\n選択肢アは比例でした。",
+          "en-EN": "Since it is 2 times 3 times the same as the value of X, we can definitely judge that this is proportional. Option A was proportional."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ちなみに、ｘいこーる１、つまり1円のりんごなんてありえないだろというツッコミができた人は、問題をよく読めている証拠です。",
+          "en-EN": "By the way, if you were able to say 1 x 1, that is, an apple worth 1 yen is impossible, this is proof that you have read the question well."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "確かに1円のりんごを見ることはなかなかなさそうですが、今回は比例かどうかが判断できればよいので、計算が楽な小さい値を代入することをおすすめします。",
+          "en-EN": "It is true that it is rare to see an apple worth 1 yen, but in this case we only need to be able to determine whether it is proportional or not, so we recommend substituting a small value that is easy to calculate."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "続いてイです。",
+          "en-EN": "Next is I."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "Ｘは正方形の一辺の長さ、ｙは正方形の面積を表しています。",
+          "en-EN": "X represents the length of one side of the square, and y represents the area of ​​the square."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "正方形をイメージしてみると、1辺の長さが大きくなればなるほど面積も大きくなっています。",
+          "en-EN": "If you imagine a square, the larger the length of one side, the larger the area."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "一方が大きくなるともう一方も大きくなる関係のため、ｙはｘに比例しているように見えます。",
+          "en-EN": "As one increases, the other also increases, so y appears to be proportional to x."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "しかしこの問題は注意が必要です。",
+          "en-EN": "However, this issue requires attention."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "より正確に判断するため、xとyを使った式をもとに考えてみましょう。",
+          "en-EN": "To make a more accurate judgment, let's think about it based on an expression using x and y."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "正方形の面積は、一辺の長さかける一辺の長さで求めることができましたね。",
+          "en-EN": "The area of ​​a square can be found by multiplying the length of one side by the length of one side."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今回は一辺の長さがｘ㎝となっているため、正方形の面積ｙいこーるｘかけるｘ、すなわち、ｙいこーるｘの2乗と表すことができます。",
+          "en-EN": "In this case, the length of one side is x cm, so the area of ​​the square can be expressed as y Ikor x times x, that is, y Ikor x squared."
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここでｘに1、2、3のように、2倍3倍した数を代入していくと、yの値は1,4,9となることが分かります。",
+          "en-EN": "Now, if you substitute numbers multiplied by 2 and 3 for x, such as 1, 2, and 3, you will find that the values ​​of y become 1, 4, and 9."
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "xが2倍3倍となるとき、yは2倍3倍、ではないですよね。\n残念ながらこれは比例と呼ぶことはできません。",
+          "en-EN": "When x is 2x3x, y is not 2x3x, right? Unfortunately, this cannot be called proportional."
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "一辺が大きくなると面積も大きくなるため比例しているようにも見えますが、一方が2倍3倍のとき、もう一方も2倍3倍と同じように大きくなっていくことが重要です。",
+          "en-EN": "As one side becomes larger, the area also becomes larger, so it may seem that they are proportional, but it is important that when one side is 2x3x, the other side is also growing in the same way as 2x3x."
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここでｘに1、2、3のように、2倍3倍した数を代入していくと、yの値は1,4,9となることが分かります。",
+          "en-EN": "Now, if you substitute numbers multiplied by 2 and 3 for x, such as 1, 2, and 3, you will find that the values ​​of y become 1, 4, and 9."
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "xが2倍3倍となるとき、yは2倍3倍、ではないですよね。\n残念ながらこれは比例と呼ぶことはできません。",
+          "en-EN": "When x is 2x3x, y is not 2x3x, right? Unfortunately, this cannot be called proportional."
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "一辺が大きくなると面積も大きくなるため比例しているようにも見えますが、一方が2倍3倍のとき、もう一方も2倍3倍と同じように大きくなっていくことが重要です。",
+          "en-EN": "As one side becomes larger, the area also becomes larger, so it may seem that they are proportional, but it is important that when one side is 2x3x, the other side is also growing in the same way as 2x3x."
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "最後にウです。",
+          "en-EN": "Finally, there's U."
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "Ｘは昼の長さ、ｙは夜の長さを表していますね。",
+          "en-EN": "X represents the length of the day and y represents the length of the night."
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "季節によって昼と夜の長さは変わってきますが、昼が長くなると夜の時間はどうなるでしょうか。",
+          "en-EN": "The length of day and night changes depending on the season, but what happens to the hours of night as the days get longer?"
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "1日の長さは24時間と決まっているので、昼が長くなればなるほど夜の時間は短くなり、反対に昼が短くなればなるほど夜の時間は長くなりますね。",
+          "en-EN": "The length of a day is 24 hours, so the longer the day is, the shorter the night is, and conversely, the shorter the day is, the longer the night is."
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "一方が大きくなるともう一方が小さくなる関係のため、2倍3倍を考えるまでもなく比例ではありません。",
+          "en-EN": "Because the relationship is such that when one becomes larger, the other becomes smaller, so there is no need to consider doubling or tripling, and it is not proportional."
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ただ、せっかくですのでこれもｘとｙを使った式にしてみましょう。",
+          "en-EN": "However, let's take this opportunity to create an equation using x and y."
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "昼と夜の考え方は第一回でもお話しましたが、太陽が出ている時間はすべて昼、太陽が出ていない時間はすべて夜としましたね。",
+          "en-EN": "I talked about the idea of ​​day and night in the first part, but all the time the sun is out is considered daytime, and all the time the sun is not out is considered night."
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "すると上のような式が完成します。",
+          "en-EN": "This will complete the formula above."
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "念のため、ｘに1、2、3と代入していくと、yの値は23,22,21となることが分かります。\nやはり比例ではありませんでした。",
+          "en-EN": "Just to be sure, if we substitute 1, 2, and 3 for x, we can see that the values ​​of y are 23, 22, and 21. It wasn't proportional after all."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "比例って何3",
+        "en-EN": "What is proportionality?3"
+      },
+      "message": [
+        {
+          "slide": "01-14.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここまで色々な問題を見てきましたが、最後に比例になる式と、比例ではない式を見比べてみましょう。",
+          "en-EN": "We have looked at various problems so far, but finally, let's compare expressions that are proportional and expressions that are not proportional."
+        },
+        {
+          "slide": "01-14.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "間違い探しのようなものだと思って、比例とそうではないものにはどんな違いがあるか見比べてみましょう。",
+          "en-EN": "Think of it like spot-the-difference and compare what is the difference between proportional and non-proportional."
+        },
+        {
+          "slide": "01-14.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例の式にはある共通点があるのですが気づきましたか？",
+          "en-EN": "Have you noticed that all equations of proportion have something in common?"
+        },
+        {
+          "slide": "01-15.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ポイントはいこーるの右側、右辺の形ですね！",
+          "en-EN": "The point is, it's the shape of the right side of the call!"
+        },
+        {
+          "slide": "01-15.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例しているものは、すべてｙいこーる定数かけるｘという形になっています。",
+          "en-EN": "Everything that is proportional is of the form y times the constant x."
+        },
+        {
+          "slide": "01-15.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "逆にこのような形の式にできる事柄はすべて比例と呼ぶことができるということですね。",
+          "en-EN": "On the contrary, anything that can be expressed as an expression in this form can be called proportional."
+        },
+        {
+          "slide": "01-15.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例がこの形をとるということは、とても重要なポイントとなります。",
+          "en-EN": "The fact that proportion takes this form is a very important point."
+        },
+        {
+          "slide": "01-15.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "最後に次のスライドでまとめてみましょう！",
+          "en-EN": "Finally, let's summarize on the next slide!"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "まとめ",
+        "en-EN": "summary"
+      },
+      "message": [
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "本日のまとめです！",
+          "en-EN": "This is today's summary!"
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今みてきたように、比例となる場合はｙいこーる定数かけるｘという関係になります。",
+          "en-EN": "As we have just seen, when it is proportional, the relationship is y times the constant x."
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "この定数は特別に比例定数とよばれており、問題によって様々な数になるため、文字aを使って表現されます。",
+          "en-EN": "This constant is specially called the constant of proportionality, and since it can vary depending on the problem, it is expressed using the letter a."
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例の基本式はｙいこーるax！この知識が本日の中で最も大切なものになります。",
+          "en-EN": "The basic formula for proportionality is yikoru ax! This knowledge will be the most important thing you will have today."
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "次回以降、この基本式を活用していくことになりますので、しっかりと覚えておいてくださいね！",
+          "en-EN": "We will be using this basic formula from next time onwards, so please remember it carefully!"
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "本日は以上です。\nお疲れ様でした！",
+          "en-EN": "That's all for today. thank you for your hard work!"
+        }
+      ]
+    }
+  ],
+  "drill": false
+}

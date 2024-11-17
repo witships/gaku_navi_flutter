@@ -15,56 +15,56 @@
           "en-EN": "Click me"
         },
         {
-          "slide": "00.png",
+          "slide": "00.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "皆さんこんにちは！\n今日から新しい単元である関数について学習していきます。",
           "en-EN": "Hello everyone! Starting today, we will be learning about a new unit: functions."
         },
         {
-          "slide": "00.png",
+          "slide": "00.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "関数は、中学1年生、2年生、3年生はもちろん、\n高校生になっても学習していく単元になります。",
           "en-EN": "Functions are a unit that students study not only in the first, second, and third years of junior high school, but also in high school."
         },
         {
-          "slide": "00.png",
+          "slide": "00.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "1年生のうちにしっかりと関数を学習しておくと、\n今後の数学がグッと楽になるので一緒に頑張っていきましょう！",
           "en-EN": "If you study functions well in your first year, your future mathematics will be much easier, so let's do our best together!"
         },
         {
-          "slide": "00.png",
+          "slide": "00.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "復習として見てくれている中学2年生以上のあなたも大丈夫！\nひとつずつ丁寧に説明していくから、一緒に思い出していきましょうね！",
           "en-EN": "If you are a second year junior high school student or above who are watching this as a review, you can do it too! I'll explain each step in detail, so let's remember them together!"
         },
         {
-          "slide": "00.png",
+          "slide": "00.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "第1回目の今日は、そもそも関数とは何かについて学習していきます。",
           "en-EN": "In today's first lesson, we will learn about what a function is."
         },
         {
-          "slide": "00.png",
+          "slide": "00.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "本日のもくじはこちら！",
           "en-EN": "Here is today's table of contents!"
         },
         {
-          "slide": "00-1.png",
+          "slide": "00-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "第一回目の今日は、そもそも関数とは何かについて学んでいきます。",
           "en-EN": "In today's first lesson, we will learn about what a function is."
         },
         {
-          "slide": "00-1.png",
+          "slide": "00-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "最後にはちょっとした確認問題を用意しましたので、一緒に考えていきましょう。",
@@ -79,105 +79,105 @@
       },
       "message": [
         {
-          "slide": "01-1.png",
+          "slide": "01-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "突然ですが１つ問題です！",
           "en-EN": "Suddenly, there is one problem!"
         },
         {
-          "slide": "01-1.png",
+          "slide": "01-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "100円のりんごをｘ個買ったときの代金をｙ円とするとき、\nｙをｘの式で表してみましょう。",
           "en-EN": "Let's express y using the formula for x, assuming that the cost of buying x apples worth 100 yen is y yen."
         },
         {
-          "slide": "01-1.png",
+          "slide": "01-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "中学1年生で学習してきた文字と式の単元の問題ですが、答えられますか？",
           "en-EN": "Can you answer the questions from the unit on characters and formulas that you studied in the first grade of junior high school?"
         },
         {
-          "slide": "01-1.png",
+          "slide": "01-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "関数は文字や代入、方程式をたくさん扱う単元ですので、\n不安な場合は先へと焦らず、文字と式や方程式の復習から始めてみましょう。",
           "en-EN": "Functions is a unit that deals with a lot of characters, assignments, and equations, so if you are unsure, don't rush ahead and start by reviewing characters, expressions, and equations."
         },
         {
-          "slide": "01-1.png",
+          "slide": "01-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "それでは、この問題の考え方を一緒に見ていきましょう！",
           "en-EN": "Now, let's take a look at how to think about this problem!"
         },
         {
-          "slide": "01-2.png",
+          "slide": "01-2.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "皆さんがお買い物をする場面を想像してみてください。",
           "en-EN": "Imagine you are shopping."
         },
         {
-          "slide": "01-2.png",
+          "slide": "01-2.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "そのときに支払う代金は、何円の商品を、何個買うかで決まります。",
           "en-EN": "The price you pay at that time is determined by how many yen you buy and how many items you buy."
         },
         {
-          "slide": "01-2.png",
+          "slide": "01-2.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "この問題のりんごは100円なので、支払う代金は上のような式で求めることができます。",
           "en-EN": "Since the apple in this problem costs 100 yen, the price to be paid can be calculated using the formula above."
         },
         {
-          "slide": "01-3.png",
+          "slide": "01-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "今回買うりんごの個数はｘ個、代金はｙ円と設定されているので、それぞれ文字に置き換えます。",
           "en-EN": "The number of apples to be purchased this time is set to be x, and the price is set to be y yen, so replace each with a letter."
         },
         {
-          "slide": "01-3.png",
+          "slide": "01-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "すると、ｙ=100×x、すなわちｙ=100ｘという式が完成します。",
           "en-EN": "Then, the formula yikoru 100 times x, that is, yikoru 100x, is completed."
         },
         {
-          "slide": "01-3.png",
+          "slide": "01-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "これが、中学1年生で習った文字と式の表し方でした。",
           "en-EN": "This is how to represent letters and expressions that I learned in the first grade of junior high school."
         },
         {
-          "slide": "01-4.png",
+          "slide": "01-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "なお、この問題において、りんごの値段100円は変えることのできない固定された数であり、",
           "en-EN": "In addition, in this problem, the price of 100 yen of apples is a fixed number that cannot be changed."
         },
         {
-          "slide": "01-4.png",
+          "slide": "01-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "ｘ、ｙは様々な数に変身できる文字になります。",
           "en-EN": "x and y are characters that can be transformed into various numbers."
         },
         {
-          "slide": "01-4.png",
+          "slide": "01-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "この、固定され変えることのできない数を定数、様々な数に変身できる文字を変数と呼びます。",
           "en-EN": "These fixed numbers that cannot be changed are called constants, and characters that can be transformed into various numbers are called variables."
         },
         {
-          "slide": "01-4.png",
+          "slide": "01-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "数学における大切な用語ですのでどんどん使って覚えていきましょう。",
@@ -192,49 +192,49 @@
       },
       "message": [
         {
-          "slide": "01-5.png",
+          "slide": "01-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "続けて皆さんに問題です。",
           "en-EN": "Next, I have a question for you all."
         },
         {
-          "slide": "01-5.png",
+          "slide": "01-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "このりんごを５個買ったとき、代金はいくらになるでしょうか。",
           "en-EN": "How much will it cost if I buy 5 of these apples?"
         },
         {
-          "slide": "01-5.png",
+          "slide": "01-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "100円のりんごが5個ですので、すぐ分かったという人も多いかもしれませんが、\n今作った式を使って考えてみましょう。",
           "en-EN": "There are 5 apples that cost 100 yen, so many people may have figured it out right away, but let's think about it using the formula we just created."
         },
         {
-          "slide": "01-6.png",
+          "slide": "01-6.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "この問題では、りんごの個数をｘ個としているため、５個買う場合はｘの部分に5を入れます。",
           "en-EN": "In this problem, the number of apples is x, so if you want to buy 5 apples, put 5 in x."
         },
         {
-          "slide": "01-6.png",
+          "slide": "01-6.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "このように、文字の代わりに数字を入れることを、代入といいましたね。",
           "en-EN": "Inserting numbers instead of letters like this is called substitution."
         },
         {
-          "slide": "01-6.png",
+          "slide": "01-6.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "すると、代金ｙ＝100かける５、すなわちｙ＝５００となりますね。",
           "en-EN": "Then, the price will be y call 100 times 5, or y call 500."
         },
         {
-          "slide": "01-6.png",
+          "slide": "01-6.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "よって答えは５００円となります。",
@@ -249,84 +249,84 @@
       },
       "message": [
         {
-          "slide": "01-7.png",
+          "slide": "01-7.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "もう１つ問題です。",
           "en-EN": "There is one more problem."
         },
         {
-          "slide": "01-7.png",
+          "slide": "01-7.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "今回の代金が700円になったとします。\nこのとき、りんごは何個買ったことになるでしょうか。",
           "en-EN": "Let's say the price this time is 700 yen. How many apples did you buy at this time?"
         },
         {
-          "slide": "01-7.png",
+          "slide": "01-7.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "先ほどの問題ではりんごの個数が先に分かっていましたが、今度は代金が先に分かっています。",
           "en-EN": "In the previous problem, the number of apples was known first, but this time the price is known first."
         },
         {
-          "slide": "01-7.png",
+          "slide": "01-7.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "こちらもすぐに分かる人もいるかもしれませんが、式の使い方を確認してみましょう。",
           "en-EN": "Some people may understand this right away, but let's check how to use the expression."
         },
         {
-          "slide": "01-8.png",
+          "slide": "01-8.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "この問題では、代金をｙ円としているため、７００円の場合はｙの部分に７００を入れます。",
           "en-EN": "In this problem, the price is y yen, so if it is 700 yen, enter 700 in the y part."
         },
         {
-          "slide": "01-8.png",
+          "slide": "01-8.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "先ほどと同様に代入ですね。",
           "en-EN": "As before, this is an assignment."
         },
         {
-          "slide": "01-8.png",
+          "slide": "01-8.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "すると、７００＝100かけるｘ、すなわちｘ＝７となりますね。",
           "en-EN": "Then, it becomes 700 times 100 times x, which is x times 7."
         },
         {
-          "slide": "01-8.png",
+          "slide": "01-8.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "よって答えは７個となります。",
           "en-EN": "Therefore, the answer will be 7."
         },
         {
-          "slide": "01-9.png",
+          "slide": "01-9.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "今みなさんに考えてもらったことをまとめてみましょう。",
           "en-EN": "Let me summarize what I asked everyone to think about."
         },
         {
-          "slide": "01-9.png",
+          "slide": "01-9.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "ｙ＝100ｘという式に、ｘ＝５を代入するとｙは５００に、\nｙ＝７００を代入するとｘ＝７というように、",
           "en-EN": "Substituting x call 5 into the formula y call 100x gives y 500, substituting y call 700 gives x call 7, and so on."
         },
         {
-          "slide": "01-9.png",
+          "slide": "01-9.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "１つの値を決めるともう１つの値も自動的に決まりました。",
           "en-EN": "When one value is determined, the other value is automatically determined as well."
         },
         {
-          "slide": "01-9.png",
+          "slide": "01-9.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "こんなふうに、１つの値が決まるともう１つの値も決まる、\n一方が決まるともう一方も決まるという関係を、数学では関数と呼びます。",
@@ -341,42 +341,42 @@
       },
       "message": [
         {
-          "slide": "01-10.png",
+          "slide": "01-10.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "ここで大切なのが、一方が決まると、もう一方の結果は１つに限定されるということです。",
           "en-EN": "The important thing here is that once one is determined, the other outcome is limited to one."
         },
         {
-          "slide": "01-10.png",
+          "slide": "01-10.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "例えばあるゲームにおいて、Aボタンを押すとキャラクターがジャンプをするというように、\n特定の操作に対して起きる結果が決まっている場合、",
           "en-EN": "For example, in a game, if the result of a specific operation is determined, such as making the character jump when the A button is pressed,"
         },
         {
-          "slide": "01-10.png",
+          "slide": "01-10.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "これも関数の１つということができます。\nゲーム機やコンピュータの中には関数が組み込まれており、操作に対して起きる結果が決まるようにつくられています。",
           "en-EN": "This can also be considered a function. Functions are built into game consoles and computers, and they are designed to determine the outcome of an operation."
         },
         {
-          "slide": "01-10.png",
+          "slide": "01-10.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "同じ操作をしているのに、毎回ちがうことが起きてしまってはゲームになりませんよね。",
           "en-EN": "It wouldn't be a good game if something different happened every time you performed the same operations."
         },
         {
-          "slide": "01-10.png",
+          "slide": "01-10.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "数学についても同様で、ｘが５のときｙは１０というように、\n１つの値につき１つの結果という１対１の関係になっているものが関数となります。",
           "en-EN": "The same goes for mathematics; a function is a function that has a one-to-one relationship, with one result per value, such as when x is 5 and y is 10."
         },
         {
-          "slide": "01-10.png",
+          "slide": "01-10.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "ｘが５と決まってもｙの値が決められないような事柄は、\n関数とは呼べませんので注意しましょう。",
@@ -391,175 +391,175 @@
       },
       "message": [
         {
-          "slide": "02-1.png",
+          "slide": "02-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "それでは関数が理解できたかの確認をしてみましょう。",
           "en-EN": "Now let's check to see if we understand the function."
         },
         {
-          "slide": "02-1.png",
+          "slide": "02-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "次のアからウのうち、yがxの関数であるものをすべて選んでみてください。",
           "en-EN": "Please choose all of the following A to C in which y is a function of x."
         },
         {
-          "slide": "02-1.png",
+          "slide": "02-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "再確認ですが、関数は、xの値が決まるとyの値も１つに決まるものでしたね。",
           "en-EN": "Just to double check, the function is such that when the value of x is determined, the value of y is also determined."
         },
         {
-          "slide": "02-1.png",
+          "slide": "02-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "それでは、シンキングタイムスタートです！",
           "en-EN": "Now, let's start thinking time!"
         },
         {
-          "slide": "02-1.png",
+          "slide": "02-1.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "いかがだったでしょうか。\nそれでは１つずつ見ていきます。",
           "en-EN": "What did you think? Let's look at them one by one."
         },
         {
-          "slide": "02-2.png",
+          "slide": "02-2.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "まずはアです。",
           "en-EN": "First is A."
         },
         {
-          "slide": "02-2.png",
+          "slide": "02-2.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "縦５㎝、横ｘ㎝の長方形の面積はｙ㎠となっていますが、\n例えばxに２を代入してみましょう。",
           "en-EN": "The area of ​​a rectangle with a length of 5 cm and a width of x cm is y cm. For example, let's substitute 2 for x."
         },
         {
-          "slide": "02-2.png",
+          "slide": "02-2.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "長方形の面積は縦かける横で求められるので、２を代入すると面積ｙ＝５かける２、\nすなわち面積ｙは１０と、ただ１つに決まります。",
           "en-EN": "The area of ​​a rectangle can be found by multiplying the length by the width, so substituting 2 yields the area y = 5 times 2, which means the area y is determined to be only 10."
         },
         {
-          "slide": "02-2.png",
+          "slide": "02-2.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "このように、１つの値を決めるともう１つの値も確定するものを関数と呼びますので、アは関数となります。",
           "en-EN": "In this way, when one value is determined, the other value is also determined, which is called a function, so A is a function."
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "次はイです。",
           "en-EN": "Next is Lee."
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "身長ｘ㎝の人の国語の点数ｙ点となっていますが、\n例えばｘに160を代入すると、ｙはいくつになるでしょうか。",
           "en-EN": "The Japanese language score for a person with a height of x cm is y. For example, if you substitute 160 for x, how many y will you get?"
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "ちょっと考えてしまいませんか？",
           "en-EN": "Would you like to think about it for a moment?"
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "身長160cmの人の国語の点数は必ず80点になるでしょうか？",
           "en-EN": "Will a person with a height of 160 cm necessarily score 80 points in Japanese?"
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "身長150cmの人は必ず90点になるでしょうか？そんなことはありませんよね。",
           "en-EN": "Will a person who is 150cm tall always score 90 points? That's not true."
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "身長で点数が決まってしまうならテストをする意味がなくなってしまいます。",
           "en-EN": "If scores were determined by height, there would be no point in taking the test."
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "同じ身長の人でも点数は人それぞれですので、xの値を決めてもyは１つに決まりません。",
           "en-EN": "Even if people are of the same height, each person's score will be different, so even if you decide on the value of x, y will not be fixed to one value."
         },
         {
-          "slide": "02-3.png",
+          "slide": "02-3.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "よってイは関数ではありません。",
           "en-EN": "Therefore, i is not a function."
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "次はウです。",
           "en-EN": "Next is U."
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "1日の昼の長さをｘ時間とするとき、夜の時間はｙ時間となっています。",
           "en-EN": "When the length of daylight in a day is x hours, the length of night is y hours."
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "この選択肢を見たときに、何時から何時が昼で、\n何時から何時から夜だろうと悩んだ人はいるでしょうか。",
           "en-EN": "When you look at these options, is there anyone who wonders what time it's daytime and what time it's nighttime?"
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "確かに日常生活の中では昼夜の感じ方は人それぞれで、一見すると式で表せないようにも思えます。",
           "en-EN": "It is true that in daily life, each person perceives day and night differently, and at first glance it may seem impossible to express it in a formula."
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "ただし、数学や理科において、昼とは太陽が出ている時間すべて、夜とは太陽が出ていない時間すべてを指します。",
           "en-EN": "However, in mathematics and science, day refers to all the time when the sun is out, and night refers to all the time when the sun is not out."
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "1日２４時間は太陽が出ている時間と出ていない時間の２つに分けられるので、\n上のような式で表すことができます。",
           "en-EN": "The 24 hours in a day can be divided into two parts: the time when the sun is out and the time when it is not, so it can be expressed using the formula above."
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "例えばｘ＝１１を代入すると、ｙ＝１３。\n夜の時間は１３時間とただ１つに決まります。",
           "en-EN": "For example, if you substitute x call 11, you get y call 13. There is only one night time, 13 hours."
         },
         {
-          "slide": "02-4.png",
+          "slide": "02-4.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "よって、ウは関数だと言えます。",
@@ -574,42 +574,42 @@
       },
       "message": [
         {
-          "slide": "02-5.png",
+          "slide": "02-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "本日のまとめです。",
           "en-EN": "This is today's summary."
         },
         {
-          "slide": "02-5.png",
+          "slide": "02-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "まず、問題文で定められており、変えることのできない数を定数、様々な数に変身できる文字のことを変数と呼びました。",
           "en-EN": "First, numbers that are fixed in the problem statement and cannot be changed are called constants, and characters that can be transformed into various numbers are called variables."
         },
         {
-          "slide": "02-5.png",
+          "slide": "02-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "そして２つの変数のうち、１つの値が決まるともう１つの値もただ１つに決まる場合、それを関数と呼んでいきます。",
           "en-EN": "When the value of one of two variables is determined, the value of the other is also determined to be exactly one, and this is called a function."
         },
         {
-          "slide": "02-5.png",
+          "slide": "02-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "関数にもたくさんの種類があり、中学1年生ではそのうちの比例、反比例という２つについて学んでいきます。",
           "en-EN": "There are many types of functions, and in the first year of junior high school, we will learn about two of them: proportionality and inverse proportionality."
         },
         {
-          "slide": "02-5.png",
+          "slide": "02-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "関数は実は日常生活の様々な場所に溢れており、学んでいけばいくほど面白くなっていく単元です。",
           "en-EN": "Functions are actually found in many places in daily life, and the more you learn about them, the more interesting this unit becomes."
         },
         {
-          "slide": "02-5.png",
+          "slide": "02-5.PNG",
           "actorImg": "noimage.png",
           "actor": "長月",
           "ja-JA": "これから関数の世界を一緒に楽しんでいきましょう！今日はここまで。\nお疲れ様でした！",

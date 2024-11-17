@@ -146,7 +146,7 @@ class _BookPageState extends State<BookPage> {
     // await flutterTts.setSpeechRate(0.7);
     // web用
     if (selectLang == "ja-JA") {
-      await flutterTts.setSpeechRate(1.3);
+      await flutterTts.setSpeechRate(1.4);
     } else {
       await flutterTts.setSpeechRate(1);
     }
