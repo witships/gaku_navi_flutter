@@ -1,0 +1,556 @@
+{
+  "title": "反比例",
+  "page": [
+    {
+      "title": {
+        "ja-JA": "はじめから",
+        "en-EN": "from the beginning"
+      },
+      "message": [
+        {
+          "slide": "00.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここをクリックしてね",
+          "en-EN": "Click here"
+        },
+        {
+          "slide": "00.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "皆さんこんにちは！今回は関数の第3回目となります。",
+          "en-EN": "Hello everyone! This is the third time for the function."
+        },
+        {
+          "slide": "00.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "前回は比例について学習しましたが、今日は関数のうちの１つである、反比例について学習していきます。",
+          "en-EN": "Last time we learned about proportionality, but today we will learn about inverse proportion, which is one of the functions."
+        },
+        {
+          "slide": "00.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例と名前が似ていますが、どんな関数なのでしょうか。\n一緒に見ていきましょう！",
+          "en-EN": "The name is similar to proportionality, but what kind of function is it? Let's take a look together!"
+        },
+        {
+          "slide": "00-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今日はいくつかの問題を通じて反比例とは何かについて学習していきます。",
+          "en-EN": "Today we will learn about inverse proportion through some problems."
+        },
+        {
+          "slide": "00-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "とはいっても、基本はこれまでに学習してきた文字と式や、方程式の単元とほとんど一緒です。",
+          "en-EN": "However, the basics are almost the same as the characters, expressions, and equation units we have learned so far."
+        },
+        {
+          "slide": "00-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "不安にならないでも大丈夫！一歩ずつ、一緒に進んでいきましょう！",
+          "en-EN": "It's okay if you don't feel anxious! Let's move forward together, one step at a time!"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "反比例とは1",
+        "en-EN": "What is inverse proportion?1"
+      },
+      "message": [
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "はじめに、この問題について考えてみましょう。",
+          "en-EN": "First, let's consider this problem."
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "これまで学習してきた、ｙをｘの式で表しなさいという問題です。",
+          "en-EN": "This is the problem we have learned so far, which asks us to express y as an expression for x."
+        },
+        {
+          "slide": "01-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "まずは自分の力で式をつくれるかどうか挑戦してみましょう。",
+          "en-EN": "First, let's try to see if you can create a formula on your own."
+        },
+        {
+          "slide": "01-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "できましたか？それでは答え合わせです。",
+          "en-EN": "Did you do it? Now it's time to answer."
+        },
+        {
+          "slide": "01-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "物を分配する状況を想像すると、そこにある物を人数で割ることで１人あたりの個数を求めることができますね。",
+          "en-EN": "If you imagine a situation where things are being distributed, you can find the number of items per person by dividing the items there by the number of people."
+        },
+        {
+          "slide": "01-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "問題文より、当てはまる文字や数を当てはめると、ｙいこーるｘぶんの１２という式ができます。",
+          "en-EN": "By applying the appropriate letters and numbers from the problem statement, you can create the formula y call x number 12."
+        },
+        {
+          "slide": "01-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "基本的に割り算は分数で表すのが中学生ルールでしたね！",
+          "en-EN": "Basically, it was a junior high school rule to express division using fractions!"
+        },
+        {
+          "slide": "01-3.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "次に、前回と同様に、この式のｘに１，２，３と代入をしてみます。",
+          "en-EN": "Next, as we did last time, substitute 1, 2, and 3 for x in this equation."
+        },
+        {
+          "slide": "01-3.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "そのとき、ｙの値はどのようになっていくでしょうか。",
+          "en-EN": "At that time, what will the value of y be?"
+        },
+        {
+          "slide": "01-3.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "表に入る数がいくつになるか考えてみましょう。",
+          "en-EN": "Think about how many numbers will fit in the table."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "正解はこちらになります。",
+          "en-EN": "Here is the correct answer."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "左から順に、１ぶんの１２で１２、２ぶんの１２で６、３ぶんの１２で４となっていきますね。",
+          "en-EN": "From the left, 1st 12 becomes 12, 2nd 12 becomes 6, and 3rd 12 becomes 4."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このとき表を見ての通り、ｘの値が2倍3倍になると、ｙの値は同時に２ぶんの１，３ぶんの１になっています。",
+          "en-EN": "At this time, as you can see from the table, when the value of x doubles or triples, the value of y simultaneously becomes 2 times 1 or 3 times 1."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "前回学習した比例は、一方が2倍3倍でもう一方も2倍3倍という関係でしたが、今回はそんな比例とは反対に、一方が2倍3倍になるともう一方は２ぶんの１、３ぶんの１となっています。",
+          "en-EN": "The proportional relationship we learned last time was that one side is 2x3x and the other side is also 2x3x, but this time we will go against that proportionality; if one side becomes 2x3x, the other side will be 2x1x. , it is 1 in 3."
+        },
+        {
+          "slide": "01-4.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このような関係が、本日のテーマである反比例と呼ばれています。\n比例の反対で反比例、というイメージですね。",
+          "en-EN": "This kind of relationship is called inverse proportionality, which is today's topic. It's an image of inverse proportion, the opposite of proportionality."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "反比例とは2",
+        "en-EN": "What is inverse proportion?2"
+      },
+      "message": [
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それでは問題を通して反比例の理解を深めていきましょう！",
+          "en-EN": "Now, let's deepen our understanding of inverse proportion through problems!"
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "次のアからウの中で、ｙがｘに反比例しているものを選びましょう。",
+          "en-EN": "From the following A to C, choose the one in which y is inversely proportional to x."
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ポイントは、ｘが２倍３倍のとき、ｙは２ぶんの１、３ぶんの１になっているかどうかです。",
+          "en-EN": "The point is, when x is 2 times 3 times, whether y is 1 times 2 or 1 times 3."
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "また、前回のようにｙをｘの式で表してみてもいいですね！",
+          "en-EN": "Also, you can try expressing y using the formula for x like last time!"
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それではシンキングタイムスタートです！",
+          "en-EN": "Let's start thinking time!"
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "(シンキングタイム)",
+          "en-EN": "(Thinking time)"
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "いかがでしたか？",
+          "en-EN": "How was it?"
+        },
+        {
+          "slide": "01-5.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "それでは１つずつ見ていきましょう。",
+          "en-EN": "Let's take a look at them one by one."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "まずはアです。",
+          "en-EN": "First is A."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "アは小学校でも学習する道のり、速さ、時間の問題ですね。",
+          "en-EN": "A is a matter of route, speed, and time, which are learned even in elementary school."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "時速60㎞というのは1時間で60㎞進める速さのことですので、1時間なら60かける１で60、2時間なら60かける２で120のように、速さと時間を掛け算することで道のりを求めることができます。",
+          "en-EN": "60 km/h means the speed of traveling 60 km in 1 hour, so for 1 hour, 60 times 1 is 60, and for 2 hours, 60 times 2 is 120. Multiply the speed and time to calculate the distance. you can ask."
+        },
+        {
+          "slide": "01-6.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "問題文から文字や数を当てはめると、ｙいこーる60ｘという式ができます。",
+          "en-EN": "By applying the letters and numbers from the problem statement, you can create the formula yikor60x."
+        },
+        {
+          "slide": "01-7.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "この形、どこかで見覚えはありませんか？",
+          "en-EN": "Do you recognize this shape somewhere?"
+        },
+        {
+          "slide": "01-7.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "そう！前回学習した比例の形ですよね！",
+          "en-EN": "yes! This is the proportional form we learned last time!"
+        },
+        {
+          "slide": "01-7.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "復習ですが、比例の式はｙいこーるaxという形になり、aに当てはまる定数のことを比例定数と呼びました。",
+          "en-EN": "As a review, the formula for proportionality is of the form yikorax, and the constant that applies to a is called the proportionality constant."
+        },
+        {
+          "slide": "01-7.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "Xの値が2倍3倍になるとｙの値も2倍3倍となるので、反比例ではなく比例ですね。",
+          "en-EN": "If the value of"
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "続いてイです。",
+          "en-EN": "Next is I."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "平行四辺形の面積は、底辺かける高さで求めることができましたね。",
+          "en-EN": "The area of ​​a parallelogram can be found by multiplying the base by the height."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "文字や数を当てはめてみると、300いこーるｘかけるｙという式ができます。",
+          "en-EN": "If you apply letters and numbers, you can create the formula 300 times x times y."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここでポイントとなるのが、式をｙいこーるの形に変形をするということです。",
+          "en-EN": "The key point here is to transform the expression into the form of yikor."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例の基本式がｙいこーるという形だったように、中学校で学習する関数の基本式はすべてｙいこーるの形となります。",
+          "en-EN": "Just as the basic formula for proportionality was in the form y-kal, all the basic formulas for functions learned in junior high school are in the form y-kal."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このような形に変形をすることで、どの関数なのか見分けがつきやすくなりますので、必ず変形をするようにしましょう。",
+          "en-EN": "By transforming it into this kind of shape, it becomes easier to distinguish which function it is, so be sure to transform it."
+        },
+        {
+          "slide": "01-8.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今回は両辺をｘで割ると、ｙいこーるｘぶんの300という形になります。",
+          "en-EN": "This time, if you divide both sides by x, it will be 300, which is y call x."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここでｘに１，２，３を代入してみると、ｙの値は300、150、100となります。",
+          "en-EN": "If we substitute 1, 2, and 3 for x, the values ​​of y will be 300, 150, and 100."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "Ｘの値が2倍3倍になっているとき、yの値は2分の１、３ぶんの１となっていることがわかりますね。",
+          "en-EN": "You can see that when the value of X is doubled or tripled, the value of y is 1/2 or 1/3."
+        },
+        {
+          "slide": "01-9.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "改めて、このような関係を反比例と呼びます。\n選択肢イは反比例でした。",
+          "en-EN": "Again, this kind of relationship is called inverse proportionality. Option A was inversely proportional."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "最後はウです。",
+          "en-EN": "The last one is U."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "一辺の長さがｘ㎝の正方形の周りの長さをｙ㎝としています。",
+          "en-EN": "The circumference of a square whose side length is x cm is y cm."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "図形問題では、面積を求めるのか、周りの長さを求めるのか、問題文をよく読んでいないと間違えることがありますので注意をしましょう。",
+          "en-EN": "When solving geometry problems, be careful about whether you are calculating the area or the circumference, as you may make a mistake if you do not read the problem carefully."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "正方形には辺が4本あり、すべて長さは同じなため、yいこーる４ｘという式をつくることができました。",
+          "en-EN": "A square has four sides, all of the same length, so we were able to create the formula yikoru4x."
+        },
+        {
+          "slide": "01-10.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "では、これは反比例でしょうか？",
+          "en-EN": "So, is this inversely proportional?"
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "もうこの形も見慣れてきましたか？",
+          "en-EN": "Are you getting used to this shape?"
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "そうです！ｙいこーるaxという形のため、これは比例となります。",
+          "en-EN": "that's right! This is proportional because it has the form y call ax."
+        },
+        {
+          "slide": "01-11.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "選択肢ウは比例でした。",
+          "en-EN": "Option C was proportional."
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "ここまで色々な問題を見てきましたが、最後に、反比例になる式と反比例ではない式を見比べてみましょう。",
+          "en-EN": "We have looked at various problems so far, but finally, let's compare expressions that are inversely proportional and expressions that are not inversely proportional."
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "間違い探しのようなものだと思って、反比例とそうではないものにはどんな違いがあるか見比べてみましょう。",
+          "en-EN": "Think of it like spot-the-difference and compare what is the difference between inverse proportions and those that are not."
+        },
+        {
+          "slide": "01-12.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "前回の比例と比べて、式の外見がかなり特徴的なことに気付けるかと思います。",
+          "en-EN": "You may notice that the appearance of the formula is quite distinctive compared to the previous proportion."
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "共通点に気づけましたか？",
+          "en-EN": "Did you notice any similarities?"
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "見ての通りですが、反比例である式の右側、右辺を見てみると、すべてｘぶんの定数という形になっていますね。",
+          "en-EN": "As you can see, if you look at the right side of the equation, which is inversely proportional, it is all in the form of a constant of x."
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "このように、反比例となる場合はｙいこーるｘぶんの定数という決まった形で表すことができます。",
+          "en-EN": "In this way, when it is inversely proportional, it can be expressed in a fixed form: y times x times a constant."
+        },
+        {
+          "slide": "01-13.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "最後に次のスライドでまとめてみましょう。",
+          "en-EN": "Let's summarize on the next slide."
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja-JA": "まとめ",
+        "en-EN": "summary"
+      },
+      "message": [
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "本日のまとめです！",
+          "en-EN": "This is today's summary!"
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今みてきたように、反比例の式はすべてｙいこーるｘぶんの定数という形になります。",
+          "en-EN": "As we have just seen, all expressions of inverse proportion are in the form of a constant equal to y and equal to x."
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例の定数は比例定数と呼んだので反比例の定数は反比例定数と呼びそうですが、なんと反比例の定数aも比例定数と呼びます。",
+          "en-EN": "Since the constant of proportionality is called the constant of proportionality, the constant of inverse proportion is likely to be called the constant of inverse proportion, but the constant of inverse proportion a is also called the constant of proportionality."
+        },
+        {
+          "slide": "02-1.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "そう決まっているからと言われてしまえばそこまでなのですが、なぜ比例定数と呼べるのか、少しだけ深掘りをしてみましょう。",
+          "en-EN": "If you say that it is determined that way, that's about it, but let's dig a little deeper into why it can be called a proportionality constant."
+        },
+        {
+          "slide": "02-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "yいこーるｘぶんのaのaは、あえて1かけるaと表記することができるため、ｙいこーるｘぶんの１かけるaという形に変形が可能です。",
+          "en-EN": "The a of a in y call x bun can be written as 1 times a, so it can be transformed into 1 times a in y call x bun."
+        },
+        {
+          "slide": "02-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例の基本式ｙいこーるaxは、yはxに比例するという状況を表しているため、ｙいこーるｘぶんの１aは、ｙはｘぶんの１に比例するという状況を表していることになります。",
+          "en-EN": "The basic formula for proportionality, y Ikor ax, represents the situation in which y is proportional to x, so y Ikor x 1a represents the situation in which y is proportional to 1 in x. That's it."
+        },
+        {
+          "slide": "02-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "すなわちaは比例の定数であるともいえるため、比例でも反比例でも、aは統一して比例定数と呼ばれているのです。",
+          "en-EN": "In other words, a can be said to be a constant of proportionality, so whether it is proportional or inversely proportional, a is uniformly called the constant of proportionality."
+        },
+        {
+          "slide": "02-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今の話はいったん忘れてしまっても問題はないので、少なくともaは比例定数と呼ぶということだけはしっかりと覚えていきましょう。",
+          "en-EN": "There is no problem even if you forget what we just talked about, so let's at least remember that a is called the constant of proportionality."
+        },
+        {
+          "slide": "02-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "いよいよ次回より、関数において重要なグラフについて学習をしていきます。",
+          "en-EN": "In the next lesson, we will learn about graphs, which are important in functions."
+        },
+        {
+          "slide": "02-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "比例の基本式、反比例の基本式を活用していきますので、しっかりと復習をして進みましょう。",
+          "en-EN": "We will be using the basic equations of proportion and inverse proportion, so please review them thoroughly before proceeding."
+        },
+        {
+          "slide": "02-2.PNG",
+          "actorImg": "noimage.png",
+          "actor": "長月",
+          "ja-JA": "今日はここまで！おつかれさまでした！",
+          "en-EN": "That's all for today! Thank you for your hard work!"
+        }
+      ]
+    }
+  ],
+  "drill": false
+}
